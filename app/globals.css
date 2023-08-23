@@ -1,107 +1,218 @@
-:root {
-  --max-width: 1100px;
-  --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-
-  --primary-glow: conic-gradient(
-    from 180deg at 50% 50%,
-    #16abff33 0deg,
-    #0885ff33 55deg,
-    #54d6ff33 120deg,
-    #0071ff33 160deg,
-    transparent 360deg
-  );
-  --secondary-glow: radial-gradient(
-    rgba(255, 255, 255, 1),
-    rgba(255, 255, 255, 0)
-  );
-
-  --tile-start-rgb: 239, 245, 249;
-  --tile-end-rgb: 228, 232, 233;
-  --tile-border: conic-gradient(
-    #00000080,
-    #00000040,
-    #00000030,
-    #00000020,
-    #00000010,
-    #00000010,
-    #00000080
-  );
-
-  --callout-rgb: 238, 240, 241;
-  --callout-border-rgb: 172, 175, 176;
-  --card-rgb: 180, 185, 188;
-  --card-border-rgb: 131, 134, 135;
+html {
+  font-feature-settings: "clig" off, "liga" off;
+  /* Paragraph/Default */
+  font-family: "Avenir", Sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-
-    --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
-    --secondary-glow: linear-gradient(
-      to bottom right,
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0.3)
-    );
-
-    --tile-start-rgb: 2, 13, 46;
-    --tile-end-rgb: 2, 5, 19;
-    --tile-border: conic-gradient(
-      #ffffff80,
-      #ffffff40,
-      #ffffff30,
-      #ffffff20,
-      #ffffff10,
-      #ffffff10,
-      #ffffff80
-    );
-
-    --callout-rgb: 20, 20, 20;
-    --callout-border-rgb: 108, 108, 108;
-    --card-rgb: 100, 100, 100;
-    --card-border-rgb: 200, 200, 200;
-  }
+button {
+  outline: none;
+  box-shadow: none;
+}
+.max-w-7xl {
+  max-width: 1219px;
+  width: 100%;
 }
 
-* {
-  box-sizing: border-box;
+.max-w-full {
+  max-width: 1440px;
+  width: 100%;
+}
+
+.max-h-full {
+  height: 41.125rem;
+}
+
+/* first section styling */
+.hero-section .group {
+  display: none;
+}
+.heading {
+  max-width: 952.871px;
+  padding: 0 20px;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 56px; /* 127.273% */
+}
+.heading span {
+  background: linear-gradient(85deg, #5b9bed 11.98%, #c666bf 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sub-heading {
+  background: linear-gradient(85deg, #5b9bed 11.98%, #8b2614 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.description {
+  max-width: 899.723px;
+  min-height: 43.825px;
+  flex-shrink: 0;
+  color: #5b667b;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 34px; /* 170% */
+  padding: 0 20px;
+}
+.banner-image {
+  border-radius: 19px;
+}
+
+/* card customization */
+
+div[data-testid="flowbite-card"] > div {
+  padding: 1.5rem 0 1.5rem 0;
+  gap: 0;
+}
+div[data-testid="flowbite-card"] > img {
+  border-radius: 1.5rem;
+}
+div[data-testid="flowbite-card"] > div h5 {
+  color: #233650;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 36px;
+}
+div[data-testid="flowbite-card"] > div .card-description {
+  color: #5b667b;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+  margin-top: 0.5rem;
+}
+
+.learn-more {
+  color: #2265b0;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 5.375rem;
+}
+.learn-more span {
+  margin-left: 6px;
+}
+
+/* second section styling */
+.common-section .heading {
+  text-align: start;
+}
+
+.common-section .description {
+  text-align: start;
+}
+
+.common-section .section-bullets {
+  padding: 0 20px;
+}
+.common-section .section-bullets p {
+  color: #5b667b;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 34px; /* 170% */
+  margin-bottom: 0.75rem;
+}
+.common-section .section-bullets span {
+  margin-right: 14px;
+}
+
+.common-section .learn-more-button {
+  margin-left: 1.25rem;
+  margin-top: 2rem;
+  display: flex;
+  padding: 20px 30px 22px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  border-radius: 96px;
+  background: #2265b0;
+  color: #fff;
+}
+
+/* platform section */
+
+.platform-section .heading {
+  max-width: 53.438rem;
+}
+
+/* testimonial css starts from here  */
+
+.testimonial-description {
+  padding: 25px 14px 25px 30px;
+  border-radius: 1.5rem;
+}
+
+/* identity section */
+
+.identity-section {
+  background: linear-gradient(#fff 50%, #f2f4f9 50%);
+}
+
+.identity-section .heading {
+  max-width: 1220px;
   padding: 0;
-  margin: 0;
+  color: #233650;
+  font-family: "Avenir-Bold",Sans-serif;
+  font-size: 38px;
+}
+.identity-card {
+  box-shadow: 0px 8px 28px 0px rgba(20, 20, 43, 0.1);
+  margin: 0px 18.666px 0px 0px;
+  padding: 57px 32px 68px 32px;
+  border-radius: 1.5rem;
+  background: #fff;
+}
+.identity-card img {
+  text-align: left;
+  margin-bottom: 1.25rem;
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+.identity-card h4 {
+  color: #233650;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  padding: 4px 0px 12px 0px;
+  font-weight: 600;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.identity-card p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 2rem;
+  margin-bottom: 1.25rem;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.identity-card a {
+  padding: 12px 23px !important;
+  font-size: 16px !important;
+  line-height: 18px !important;
+  font-weight: 800;
+  border: solid 2px #2265b0 !important;
+  background-color: #2265b0 !important;
+  display: flex;
+  width: max-content;
+  border-radius: 96px;
+  color: #fff;
+  align-items: center;
 }
+.identity-card a > span {
+  margin-left: 6px;
+}
+/* footer css */
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.footer-t,
+.footer-b {
+  border-bottom: 1px solid rgb(84, 84, 84);
+  padding-bottom: 3rem;
 }
