@@ -209,6 +209,16 @@ div[data-testid="flowbite-card"] > div .card-description {
 .identity-card a > span {
   margin-left: 6px;
 }
+
+
+
+.workplace-card:hover {
+  background: linear-gradient(129.82deg,#5b9bed 8.5%,#c666bf 97.33%);
+  color: white;
+}
+
+
+
 /* footer css */
 
 .footer-t,
