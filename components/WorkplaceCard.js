@@ -3,7 +3,7 @@ import React from 'react'
 function WorkplaceCard({ image, title, description, link }) {
     return (
 
-        <div style={{ backgroundImage: `url('${image}')`, objectFit:"cover",zIndex:"-1",opacity:".2" }} class="workplace-cardmax-w-sm w-[290px] px-8 py-7 bg-[url('/Assets/img/banner-2.png')] border border-gray-200 rounded-[1.5rem] shadow dark:bg-gray-800 dark:border-gray-700">
+        <div  class="workplace-card max-w-sm w-[290px] px-8 py-7 bg-[url('/Assets/img/banner-2.png')] border border-gray-200 rounded-[1.5rem] shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
                 <h5 class="mb-2 text-[1.25rem] font-bold tracking-tight text-gray-900 dark:text-white">{title}</h5>
             </a>
@@ -15,6 +15,7 @@ function WorkplaceCard({ image, title, description, link }) {
                     <path d="M16.4999 8.22431L1.5 8.2243" stroke="#2265B0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
             </a>
+            <img src={image} alt='banner' />
         </div>
 
     )
