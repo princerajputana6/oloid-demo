@@ -7,12 +7,8 @@ function Identity() {
     return (
         <div className='identity-section w-screen flex flex-wrap justify-center'>
             <div className="mx-auto flex flex-wrap flex-col justify-center my-24 max-w-7xl gap-x-9">
-                <div className='heading mx-auto'>
-                Enabling the
-                    <span> {" "}
-                    future of work
-                    </span>{" "}
-                      for progressive organizations
+                <div className='heading'>
+                Enabling the<span> {" "}future of work</span>{" "}for progressive organizations
                 </div>
                 <div className='workplace-cards flex flex-wrap gap-[1.25rem] mt-[3rem]'>
                     <IdentityCard

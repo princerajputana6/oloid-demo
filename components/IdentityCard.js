@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 function IdentityCard({ image, title, description, linkTitle, link }) {
     return (
-        <div className='identity-card max-w-[30%]'>
+        <div className='identity-card max-w-[32%]'>
             <Image src={image} alt={title} height={100} width={100} />
             <h4 className='identity-title'>{title}</h4>
             <p className='identity-description'>{description}</p>

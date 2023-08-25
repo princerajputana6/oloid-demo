@@ -226,8 +226,7 @@ div[data-testid="flowbite-card"] > div .card-description {
   max-width: 1220px;
   padding: 0;
   color: #233650;
-  font-family: "Avenir-Bold", Sans-serif;
-  font-size: 38px;
+  font-size: 44px;
 }
 .identity-card {
   box-shadow: 0px 8px 28px 0px rgba(20, 20, 43, 0.1);
