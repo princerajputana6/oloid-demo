@@ -79,10 +79,17 @@ button {
 }
 
 .sub-heading {
-  background: linear-gradient(85deg, #5b9bed 11.98%, #8b2614 100%);
+  background: linear-gradient(to right, #5B9BED 0%, #cc63bc 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: #233650;
+  font-size: 22px;
+  line-height: 34px;
+  font-family: AvenirBlack;
+}
+.avenirBlack {
+  font-family: AvenirBlack;
 }
 .description {
   max-width: 899.723px;
@@ -321,11 +328,14 @@ line-height: 32px;
   display: none;
 }
 
-white-arrow
 /* footer css */
 
-.footer-t,
+.footer-t {
+  margin-bottom: 80px !important;
+  border-bottom: 1px solid rgb(255 255 255 / 15%) !important;
+  padding-bottom: 3.1rem !important;
+}
+
 .footer-b {
-  border-bottom: 1px solid rgb(84, 84, 84);
-  padding-bottom: 3rem;
+  border-bottom: 1px solid rgb(255 255 255 / 15%) !important; 
 }

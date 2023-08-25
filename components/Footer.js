@@ -4,28 +4,28 @@ import oloid_logo from "../Assets/img/oloid_logo.svg"
 
 function Footer() {
     return (
-        <div className=' bg-[#27354E] w-screen flex flex-wrap flex-wrap justify-center'>
-            <div className="mx-auto flex flex-wrap flex-wrap flex-col justify-center py-24 pb-0 max-w-7xl gap-x-9">
-                <div className="footer-t flex flex-wrap flex-wrap  justify-between">
+        <div className=' bg-[#27354E] w-screen flex flex-wrap  justify-center'>
+            <div className="mx-auto flex flex-wrap  flex-col justify-center py-24 pb-0 max-w-7xl gap-x-9">
+                <div className="footer-t flex flex-wrap  justify-between ">
                     <div className="w-[48%] p-4">
-                        <div className="flex flex-wrap flex-wrap lg:flex-1 mb-5">
-                            <a href="/" className="-m-1.5 p-1.5 text-3xl text-[#fff]">
-                                OLOID
+                        <div className="flex flex-wrap  lg:flex-1 mb-5">
+                            <a href="/" className=" p-1.5 text-3xl text-[#fff] max-w-[140px]">
+                                <img src="https://www.oloid.ai/wp-content/uploads/2023/03/whitewordmark-2.png" alt="logo"  />
                             </a>
                         </div>
 
-                        <h5 className='sub-heading'>Opening doors to the modern workspace</h5>
+                        <h5 className='sub-heading'>Elevate your workplace identity and access management today!</h5>
                         <p className='text-md mt-4 text-white max-w-[26rem]'>
                             We are enabeling secure and pivacy-forward authentication with a unified  identity framework
                             that connetcts and managers workplace identity and access.
                         </p>
                     </div>
                     <div className="w-[48%] bg-white rounded-lg p-8">
-                        <h4 className='text-[1.5rem] text-[#233650] font-bold '>Elevate your workplace identity and access managment experience today!</h4>
-                        <div className='subscribe-panel flex flex-wrap flex-wrap flex-col items-start flex-shrink-0 w-full mx-auto sm:w-auto mt-4'>
-                            <label for="email" class="flex-shrink-0 mr-auto text-sm font-bold text-gray-800 md:mb-0 md:mr-4 dark:text-gray-400 md:m-0">Work Email* </label>
-                            <form action="#" class="flex flex-wrap flex-wrap flex-col mt-1 items-center w-full md:flex-row">
-                                <input type="email" id="email" placeholder="" class="shadow-lg bg-white border border-gray-300 text-gray-900 md:w-64 mb-2 md:mb-0 md:mr-4 text-sm rounded-[30px] focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
+                        <h4 className='subscribe-heading text-[1.5rem] text-[#233650] font-bold avenirBlack'>Elevate your workplace identity and access managment experience today!</h4>
+                        <div className='subscribe-panel flex flex-wrap  flex-col items-start flex-shrink-0 w-full mx-auto sm:w-auto mt-4'>
+                            <label for="email" class="avenirBlack flex-shrink-0 mr-auto text-sm font-bold text-gray-800 md:mb-0 md:mr-4 dark:text-gray-400 md:m-0">Work Email* </label>
+                            <form action="#" class="flex flex-wrap flex-col mt-1 items-center w-full md:flex-row">
+                                <input type="email" id="email" placeholder="" class="shadow-lg bg-white border-none border-gray-300 text-gray-900 md:w-64 mb-2 md:mb-0 md:mr-4 text-sm rounded-[30px] focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
                                 <input type="submit" class="text-white bg-[#2265b0] hover:bg-[#2265b0] focus:ring-4 focus:outline-none focus:ring-[#2265b0] font-medium rounded-[30px] text-[1rem]  sm:w-auto px-[3.375rem] py-[.75rem] text-center w-[112px]" value={"Submit"}/>
                             </form>
                         </div>
