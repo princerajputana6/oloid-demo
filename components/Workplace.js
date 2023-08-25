@@ -7,15 +7,15 @@ import WorkplaceFour from "../Assets/img/o1.png"
 
 function Workplace() {
     return (
-        <div className=' w-screen flex justify-center'>
-            <div className="mx-auto flex flex-col justify-center py-24 max-w-7xl gap-x-9">
+        <div className=' w-screen flex flex-wrap justify-center'>
+            <div className="mx-auto flex flex-wrap flex-col justify-center py-24 max-w-7xl gap-x-9">
                 <div className='heading mx-auto'>
                     Safety, security and compliance for the
                     <span> {" "}
                         modern workplace
                     </span>
                 </div>
-                <div className='workplace-cards flex gap-[1.25rem] mt-[3rem]'>
+                <div className='workplace-cards flex flex-wrap gap-[1.25rem] mt-[3rem]'>
                     <WorkplaceCard
                     image={"https://cdn-gkbkl.nitrocdn.com/EahsqmkNZSarsOQvgGaWKiasFdUDbxev/assets/images/optimized/rev-ef262b0/www.oloid.ai/wp-content/uploads/2023/07/testimonialimg3.png"}
                     title="Office"

@@ -4,8 +4,8 @@ import Image from 'next/image'
 
 function SixthSection() {
     return (
-        <div className='platform-section bg-[#F2F4F9]  w-screen flex justify-center'>
-            <div className="mx-auto flex flex-col justify-center py-24 max-w-7xl gap-x-9">
+        <div className='platform-section bg-[#F2F4F9]  w-screen flex flex-wrap justify-center'>
+            <div className="mx-auto flex flex-wrap flex-col justify-center py-24 max-w-7xl gap-x-9">
                 <div className='heading mx-auto'>
                     <span> {" "}
                         Unify

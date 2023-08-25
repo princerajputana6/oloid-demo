@@ -5,17 +5,17 @@ import bulletTick from "../Assets/img/bullet-tick.svg"
 
 function ThirdSection() {
     return (
-        <div className='common-section  w-screen flex justify-center'>
-            <div className="mx-auto flex   justify-center py-24 max-w-7xl gap-x-9">
+        <div className='common-section  w-screen flex flex-wrap justify-center'>
+            <div className="mx-auto flex flex-wrap   justify-center py-24 max-w-7xl gap-x-9">
                 
-                <div className='section-banner w-3/6'>
+                <div className='section-banner w-[48%]'>
                     <Image
                         src={banner2}
                         alt='banner 1'
                         className='banner-image'
                     />
                 </div>
-                <div className='section-content w-3/6'>
+                <div className='section-content w-[48%]'>
                     <div className='heading mx-auto'>
                         <p><span> Visual workflow automation</span> {" "}  for security, safety & business operations
                         </p>
@@ -24,9 +24,9 @@ function ThirdSection() {
                     Get up to 10X more value from your existing Physical Access Control Systems (PACS)
                     </div>
                     <div className='section-bullets  mt-8'>
-                        <p className='flex items-center'> <span><Image src={bulletTick} alt="bullet" /></span> Automated compliance & daily tasks</p>
-                        <p className='flex items-center'> <span><Image src={bulletTick} alt="bullet" /></span> Stronger security</p>
-                        <p className='flex items-center'> <span><Image src={bulletTick} alt="bullet" /></span> Custom rules to suit your business</p>
+                        <p className='flex flex-wrap items-center'> <span><Image src={bulletTick} alt="bullet" /></span> Automated compliance & daily tasks</p>
+                        <p className='flex flex-wrap items-center'> <span><Image src={bulletTick} alt="bullet" /></span> Stronger security</p>
+                        <p className='flex flex-wrap items-center'> <span><Image src={bulletTick} alt="bullet" /></span> Custom rules to suit your business</p>
                     </div>
 
                     <button class="learn-more-button bg-[#2265B0] ">Learn more <span>

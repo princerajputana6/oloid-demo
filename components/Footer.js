@@ -4,11 +4,11 @@ import oloid_logo from "../Assets/img/oloid_logo.svg"
 
 function Footer() {
     return (
-        <div className=' bg-[#27354E] w-screen flex justify-center'>
-            <div className="mx-auto flex flex-col justify-center py-24 pb-0 max-w-7xl gap-x-9">
-                <div className="footer-t flex  justify-between">
-                    <div className="w-3/6 p-4">
-                        <div className="flex lg:flex-1 mb-5">
+        <div className=' bg-[#27354E] w-screen flex flex-wrap flex-wrap justify-center'>
+            <div className="mx-auto flex flex-wrap flex-wrap flex-col justify-center py-24 pb-0 max-w-7xl gap-x-9">
+                <div className="footer-t flex flex-wrap flex-wrap  justify-between">
+                    <div className="w-[48%] p-4">
+                        <div className="flex flex-wrap flex-wrap lg:flex-1 mb-5">
                             <a href="/" className="-m-1.5 p-1.5 text-3xl text-[#fff]">
                                 OLOID
                             </a>
@@ -20,11 +20,11 @@ function Footer() {
                             that connetcts and managers workplace identity and access.
                         </p>
                     </div>
-                    <div className="w-3/6 bg-white rounded-lg p-8">
+                    <div className="w-[48%] bg-white rounded-lg p-8">
                         <h4 className='text-[1.5rem] text-[#233650] font-bold '>Elevate your workplace identity and access managment experience today!</h4>
-                        <div className='subscribe-panel flex flex-col items-start flex-shrink-0 w-full mx-auto sm:w-auto mt-4'>
+                        <div className='subscribe-panel flex flex-wrap flex-wrap flex-col items-start flex-shrink-0 w-full mx-auto sm:w-auto mt-4'>
                             <label for="email" class="flex-shrink-0 mr-auto text-sm font-bold text-gray-800 md:mb-0 md:mr-4 dark:text-gray-400 md:m-0">Work Email* </label>
-                            <form action="#" class="flex flex-col mt-1 items-center w-full md:flex-row">
+                            <form action="#" class="flex flex-wrap flex-wrap flex-col mt-1 items-center w-full md:flex-row">
                                 <input type="email" id="email" placeholder="" class="shadow-lg bg-white border border-gray-300 text-gray-900 md:w-64 mb-2 md:mb-0 md:mr-4 text-sm rounded-[30px] focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
                                 <input type="submit" class="text-white bg-[#2265b0] hover:bg-[#2265b0] focus:ring-4 focus:outline-none focus:ring-[#2265b0] font-medium rounded-[30px] text-[1rem]  sm:w-auto px-[3.375rem] py-[.75rem] text-center w-[112px]" value={"Submit"}/>
                             </form>
@@ -144,15 +144,15 @@ function Footer() {
                     </div>
                 </div>
                 <div className="footer-c">
-                    <div class="px-4 py-6 bg-transparent dark:bg-gray-700 md:flex md:items-center md:justify-between">
-                        <div className='doc-links flex w-1/6 justify-between text[1rem]'>
+                    <div class="px-4 py-6 bg-transparent dark:bg-gray-700 md:flex flex-wrap md:items-center md:justify-between">
+                        <div className='doc-links flex flex-wrap w-1/6 justify-between text[1rem]'>
                             <p className='text-white'>Privacy</p>
                             <p className='text-white'>legal</p>
                             <p className='text-white'>Cookies</p>
                         </div>
                         <span class="text-[1rem] w-2/6 text-white dark:text-gray-300 sm:text-center">© 2023 <a href="https://flowbite.com/">OLOID | </a>. All Rights Reserved. All trademarks are properties of their respective owner.
                         </span>
-                        <div class="flex mt-4 space-x-5 sm:justify-center items-center md:mt-0">
+                        <div class="flex flex-wrap mt-4 space-x-5 sm:justify-center items-center md:mt-0">
 
                             <a href="#" class="text-white hover:text-gray-900 dark:hover:text-white">
                                 <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">

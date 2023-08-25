@@ -35,9 +35,13 @@ button {
   outline: none;
   box-shadow: none;
 }
+.w-screen {
+  width: 100%;
+}
 .max-w-7xl {
   max-width: 1240px;
   width: 100%;
+  padding: 0 10px;
 }
 
 .max-w-full {
@@ -54,6 +58,7 @@ button {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
 }
+
 
 
 .heading {
@@ -207,7 +212,7 @@ div[data-testid="flowbite-card"] > div .card-description {
 /* testimonial css starts from here  */
 
 .testimonial-description {
-  padding: 25px 14px 25px 30px;
+  padding: 25px 30px 25px 30px;
   border-radius: 1.5rem;
 }
 

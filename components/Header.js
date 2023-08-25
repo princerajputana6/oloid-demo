@@ -17,28 +17,28 @@ const callsToAction = [
 ]
 
 const companyList = [
-    { title: "company first", url: "/" },
-    { title: "company second", url: "/" },
-    { title: "company third", url: "/" },
-    { title: "company fourth", url: "/" },
+  { title: "company first", url: "/" },
+  { title: "company second", url: "/" },
+  { title: "company third", url: "/" },
+  { title: "company fourth", url: "/" },
 ];
 const productList = [
-    { title: "product fourth", url: "/" },
-    { title: "product first", url: "/" },
-    { title: "product second", url: "/" },
-    { title: "product third", url: "/" },
+  { title: "product fourth", url: "/" },
+  { title: "product first", url: "/" },
+  { title: "product second", url: "/" },
+  { title: "product third", url: "/" },
 ];
 const solutionsList = [
-    { title: "solution first", url: "/" },
-    { title: "solution second", url: "/" },
-    { title: "solution third", url: "/" },
-    { title: "solution fourth", url: "/" },
+  { title: "solution first", url: "/" },
+  { title: "solution second", url: "/" },
+  { title: "solution third", url: "/" },
+  { title: "solution fourth", url: "/" },
 ];
 const ResourcesList = [
-    { title: "resources first", url: "/" },
-    { title: "resources second", url: "/" },
-    { title: "resources third", url: "/" },
-    { title: "resources fourth", url: "/" },
+  { title: "resources first", url: "/" },
+  { title: "resources second", url: "/" },
+  { title: "resources third", url: "/" },
+  { title: "resources fourth", url: "/" },
 ];
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -48,164 +48,164 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-white sticky top-0 z-10 ">
+    <header className="bg-white sticky top-0 z-10 py-[20px] ">
       <nav className="mx-auto flex max-w-7xl items-center justify-between py-6 px-4" aria-label="Global">
-        <div className='flex items-center gap-x-14'>
-        <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
-          <Image src={oloid_logo} class="h-8 mr-3" alt="Flowbite Logo" height={100} width={100} />
-          </a>
+        <div className='flex items-center gap-x-[2.5rem]'>
+          <div className="flex lg:flex-1 ml-[10px]">
+            <a href="#" className="-m-1.5 p-1.5">
+              <Image src={oloid_logo} class="h-8 mr-3" alt="Flowbite Logo" height={100} width={100} />
+            </a>
+          </div>
+          <div className="flex lg:hidden">
+            <button
+              type="button"
+              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+              onClick={() => setMobileMenuOpen(true)}
+            >
+              <span className="sr-only">Open main menu</span>
+              <Bars3Icon className="h-6 w-6" aria-hidden="true" />
+            </button>
+          </div>
+          <Popover.Group className="hidden lg:flex lg:gap-x-8">
+            <Popover className="relative">
+              <Popover.Button className="flex items-center gap-x-1.5 text-[1rem] font-semibold leading-6 text-[#233650]">
+                Company
+                <ChevronDownIcon className="h-5 w-5 flex-none text-[#2265B0]" aria-hidden="true" />
+              </Popover.Button>
+
+              <Transition
+                as={Fragment}
+                enter="transition ease-out duration-200"
+                enterFrom="opacity-0 translate-y-1"
+                enterTo="opacity-100 translate-y-0"
+                leave="transition ease-in duration-150"
+                leaveFrom="opacity-100 translate-y-0"
+                leaveTo="opacity-0 translate-y-1"
+              >
+                <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-48 max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
+                  <div className="p-4">
+                    {companyList.map((item) => (
+                      <div
+                        key={item.title}
+                        className="group relative flex items-center gap-x-6 rounded-lg p-4 text-[1rem] leading-6 hover:bg-gray-50"
+                      >
+                        <div className="flex-auto">
+                          <a href={item.url} className="block font-semibold text-[#233650]">
+                            {item.title}
+                          </a>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </Popover.Panel>
+              </Transition>
+            </Popover>
+            <Popover className="relative">
+              <Popover.Button className="flex items-center gap-x-1.5 text-[1rem]  font-semibold leading-6 text-[#233650]">
+                Product
+                <ChevronDownIcon className="h-5 w-5 flex-none text-[#2265B0]" aria-hidden="true" />
+              </Popover.Button>
+
+              <Transition
+                as={Fragment}
+                enter="transition ease-out duration-200"
+                enterFrom="opacity-0 translate-y-1"
+                enterTo="opacity-100 translate-y-0"
+                leave="transition ease-in duration-150"
+                leaveFrom="opacity-100 translate-y-0"
+                leaveTo="opacity-0 translate-y-1"
+              >
+                <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-48 max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
+                  <div className="p-4">
+                    {productList.map((item) => (
+                      <div
+                        key={item.title}
+                        className="group relative flex items-center gap-x-6 rounded-lg p-4 text-[1rem] leading-6 hover:bg-gray-50"
+                      >
+                        <div className="flex-auto">
+                          <a href={item.url} className="block font-semibold text-[#233650]">
+                            {item.title}
+                          </a>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </Popover.Panel>
+              </Transition>
+            </Popover>
+            <Popover className="relative">
+              <Popover.Button className="flex items-center gap-x-1.5 text-[1rem] font-semibold leading-6 text-[#233650]">
+                Solutions
+                <ChevronDownIcon className="h-5 w-5 flex-none text-[#2265B0]" aria-hidden="true" />
+              </Popover.Button>
+
+              <Transition
+                as={Fragment}
+                enter="transition ease-out duration-200"
+                enterFrom="opacity-0 translate-y-1"
+                enterTo="opacity-100 translate-y-0"
+                leave="transition ease-in duration-150"
+                leaveFrom="opacity-100 translate-y-0"
+                leaveTo="opacity-0 translate-y-1"
+              >
+                <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-48 max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
+                  <div className="p-4">
+                    {solutionsList.map((item) => (
+                      <div
+                        key={item.title}
+                        className="group relative flex items-center gap-x-6 rounded-lg p-4 text-[1rem] leading-6 hover:bg-gray-50"
+                      >
+                        <div className="flex-auto">
+                          <a href={item.url} className="block font-semibold text-[#233650]">
+                            {item.title}
+                          </a>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </Popover.Panel>
+              </Transition>
+            </Popover>
+            <Popover className="relative">
+              <Popover.Button className="flex items-center gap-x-1.5 text-[1rem] font-semibold leading-6 text-[#233650]">
+                Resources
+                <ChevronDownIcon className="h-5 w-5 flex-none text-[#2265B0]" aria-hidden="true" />
+              </Popover.Button>
+
+              <Transition
+                as={Fragment}
+                enter="transition ease-out duration-200"
+                enterFrom="opacity-0 translate-y-1"
+                enterTo="opacity-100 translate-y-0"
+                leave="transition ease-in duration-150"
+                leaveFrom="opacity-100 translate-y-0"
+                leaveTo="opacity-0 translate-y-1"
+              >
+                <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-48 max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
+                  <div className="p-4">
+                    {ResourcesList.map((item) => (
+                      <div
+                        key={item.title}
+                        className="group relative flex items-center gap-x-6 rounded-lg p-4 text-[1rem] leading-6 hover:bg-gray-50"
+                      >
+                        <div className="flex-auto">
+                          <a href={item.url} className="block font-semibold text-[#233650]">
+                            {item.title}
+                          </a>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </Popover.Panel>
+              </Transition>
+            </Popover>
+          </Popover.Group>
+
         </div>
-        <div className="flex lg:hidden">
-          <button
-            type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
-            onClick={() => setMobileMenuOpen(true)}
-          >
-            <span className="sr-only">Open main menu</span>
-            <Bars3Icon className="h-6 w-6" aria-hidden="true" />
-          </button>
-        </div>
-        <Popover.Group className="hidden lg:flex lg:gap-x-8">
-          <Popover className="relative">
-            <Popover.Button className="flex items-center gap-x-1.5 text-sm font-semibold leading-6 text-[#233650]">
-              Company
-              <ChevronDownIcon className="h-5 w-5 flex-none text-[#2265B0]" aria-hidden="true" />
-            </Popover.Button>
 
-            <Transition
-              as={Fragment}
-              enter="transition ease-out duration-200"
-              enterFrom="opacity-0 translate-y-1"
-              enterTo="opacity-100 translate-y-0"
-              leave="transition ease-in duration-150"
-              leaveFrom="opacity-100 translate-y-0"
-              leaveTo="opacity-0 translate-y-1"
-            >
-              <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-48 max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
-                <div className="p-4">
-                  {companyList.map((item) => (
-                    <div
-                      key={item.title}
-                      className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
-                    >
-                      <div className="flex-auto">
-                        <a href={item.url} className="block font-semibold text-[#233650]">
-                          {item.title}
-                        </a>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </Popover.Panel>
-            </Transition>
-          </Popover>
-          <Popover className="relative">
-            <Popover.Button className="flex items-center gap-x-1.5 text-sm font-semibold leading-6 text-[#233650]">
-              Product
-              <ChevronDownIcon className="h-5 w-5 flex-none text-[#2265B0]" aria-hidden="true" />
-            </Popover.Button>
 
-            <Transition
-              as={Fragment}
-              enter="transition ease-out duration-200"
-              enterFrom="opacity-0 translate-y-1"
-              enterTo="opacity-100 translate-y-0"
-              leave="transition ease-in duration-150"
-              leaveFrom="opacity-100 translate-y-0"
-              leaveTo="opacity-0 translate-y-1"
-            >
-              <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-48 max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
-                <div className="p-4">
-                  {productList.map((item) => (
-                    <div
-                      key={item.title}
-                      className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
-                    >
-                      <div className="flex-auto">
-                        <a href={item.url} className="block font-semibold text-[#233650]">
-                          {item.title}
-                        </a>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </Popover.Panel>
-            </Transition>
-          </Popover>
-          <Popover className="relative">
-            <Popover.Button className="flex items-center gap-x-1.5 text-sm font-semibold leading-6 text-[#233650]">
-              Solutions
-              <ChevronDownIcon className="h-5 w-5 flex-none text-[#2265B0]" aria-hidden="true" />
-            </Popover.Button>
-
-            <Transition
-              as={Fragment}
-              enter="transition ease-out duration-200"
-              enterFrom="opacity-0 translate-y-1"
-              enterTo="opacity-100 translate-y-0"
-              leave="transition ease-in duration-150"
-              leaveFrom="opacity-100 translate-y-0"
-              leaveTo="opacity-0 translate-y-1"
-            >
-              <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-48 max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
-                <div className="p-4">
-                  {solutionsList.map((item) => (
-                    <div
-                      key={item.title}
-                      className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
-                    >
-                      <div className="flex-auto">
-                        <a href={item.url} className="block font-semibold text-[#233650]">
-                          {item.title}
-                        </a>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </Popover.Panel>
-            </Transition>
-          </Popover>
-          <Popover className="relative">
-            <Popover.Button className="flex items-center gap-x-1.5 text-sm font-semibold leading-6 text-[#233650]">
-              Resources
-              <ChevronDownIcon className="h-5 w-5 flex-none text-[#2265B0]" aria-hidden="true" />
-            </Popover.Button>
-
-            <Transition
-              as={Fragment}
-              enter="transition ease-out duration-200"
-              enterFrom="opacity-0 translate-y-1"
-              enterTo="opacity-100 translate-y-0"
-              leave="transition ease-in duration-150"
-              leaveFrom="opacity-100 translate-y-0"
-              leaveTo="opacity-0 translate-y-1"
-            >
-              <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-48 max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
-                <div className="p-4">
-                  {ResourcesList.map((item) => (
-                    <div
-                      key={item.title}
-                      className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
-                    >
-                      <div className="flex-auto">
-                        <a href={item.url} className="block font-semibold text-[#233650]">
-                          {item.title}
-                        </a>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </Popover.Panel>
-            </Transition>
-          </Popover>
-        </Popover.Group>
-
-        </div>
-        
-        
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <button class="bg-[#2265B0] py-3.5 px-[26px] rounded-full text-sm font-semibold leading-[1.1rem] text-[#fff]">Contact Us</button>
+          <button class="bg-[#2265B0] py-3.5 px-[26px] rounded-full text-[1rem] font-semibold leading-[1.1rem] text-[#fff]">Contact Us</button>
         </div>
       </nav>
       <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
@@ -213,8 +213,8 @@ export default function Example() {
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
-              
-            <Image src={oloid_logo} class="h-8 mr-3" alt="Flowbite Logo" height={100} width={100} />
+
+              <Image src={oloid_logo} class="h-8 mr-3" alt="Flowbite Logo" height={100} width={100} />
             </a>
             <button
               type="button"
@@ -244,7 +244,7 @@ export default function Example() {
                             key={item.title}
                             as="a"
                             href={item.url}
-                            className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-[#233650] hover:bg-gray-50"
+                            className="block rounded-lg py-2 pl-6 pr-3 text-[1rem] font-semibold leading-7 text-[#233650] hover:bg-gray-50"
                           >
                             {item.title}
                           </Disclosure.Button>
@@ -269,7 +269,7 @@ export default function Example() {
                             key={item.title}
                             as="a"
                             href={item.url}
-                            className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-[#233650] hover:bg-gray-50"
+                            className="block rounded-lg py-2 pl-6 pr-3 text-[1rem] font-semibold leading-7 text-[#233650] hover:bg-gray-50"
                           >
                             {item.title}
                           </Disclosure.Button>
@@ -294,7 +294,7 @@ export default function Example() {
                             key={item.title}
                             as="a"
                             href={item.url}
-                            className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-[#233650] hover:bg-gray-50"
+                            className="block rounded-lg py-2 pl-6 pr-3 text-[1rem] font-semibold leading-7 text-[#233650] hover:bg-gray-50"
                           >
                             {item.title}
                           </Disclosure.Button>
@@ -319,7 +319,7 @@ export default function Example() {
                             key={item.title}
                             as="a"
                             href={item.url}
-                            className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-[#233650] hover:bg-gray-50"
+                            className="block rounded-lg py-2 pl-6 pr-3 text-[1rem] font-semibold leading-7 text-[#233650] hover:bg-gray-50"
                           >
                             {item.title}
                           </Disclosure.Button>
@@ -328,10 +328,10 @@ export default function Example() {
                     </>
                   )}
                 </Disclosure>
-                
+
               </div>
               <div className="py-6">
-            
+
                 <button class="bg-[#2265B0] -mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-[#233650] hover:bg-gray-50">Contact Us</button>
               </div>
             </div>

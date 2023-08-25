@@ -5,9 +5,9 @@ import bulletTick from "../Assets/img/bullet-tick.svg"
 
 function FourthSection() {
     return (
-        <div className='common-section bg-[#F2F4F9]  w-screen flex justify-center'>
-            <div className="mx-auto flex   justify-center py-24 max-w-7xl gap-x-9">
-                <div className='section-content w-3/6'>
+        <div className='common-section bg-[#F2F4F9]  w-screen flex flex-wrap justify-center'>
+            <div className="mx-auto flex flex-wrap   justify-center py-24 max-w-7xl gap-x-9">
+                <div className='section-content w-[48%]'>
                     <div className='heading mx-auto'>
                         <p><span> Password-less & Username-less</span> {" "}  login experience for your workforce
                         </p>
@@ -16,9 +16,9 @@ function FourthSection() {
                     Lower your security risks, speed up logins, and boost productivity for a more efficient workplace
                     </div>
                     <div className='section-bullets  mt-8'>
-                        <p className='flex items-center'> <span><Image src={bulletTick} alt="bullet" /></span> Easy facial authentication-based access</p>
-                        <p className='flex items-center'> <span><Image src={bulletTick} alt="bullet" /></span> MFA for frictionless logins</p>
-                        <p className='flex items-center'> <span><Image src={bulletTick} alt="bullet" /></span> Reduced costs & IT support</p>
+                        <p className='flex flex-wrap items-center'> <span><Image src={bulletTick} alt="bullet" /></span> Easy facial authentication-based access</p>
+                        <p className='flex flex-wrap items-center'> <span><Image src={bulletTick} alt="bullet" /></span> MFA for frictionless logins</p>
+                        <p className='flex flex-wrap items-center'> <span><Image src={bulletTick} alt="bullet" /></span> Reduced costs & IT support</p>
                     </div>
 
                     <button class="learn-more-button bg-[#2265B0] ">Learn more <span>
@@ -29,7 +29,7 @@ function FourthSection() {
                     </span></button>
 
                 </div>
-                <div className='section-banner w-3/6'>
+                <div className='section-banner w-[48%]'>
                     <Image
                         src={banner3}
                         alt='banner 3'

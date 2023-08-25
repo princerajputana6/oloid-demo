@@ -5,17 +5,17 @@ import bulletTick from "../Assets/img/bullet-tick.svg"
 
 function FifthSection() {
     return (
-        <div className='common-section  w-screen flex justify-center'>
-            <div className="mx-auto flex   justify-center py-24 max-w-7xl gap-x-9">
+        <div className='common-section  w-screen flex flex-wrap justify-center'>
+            <div className="mx-auto flex flex-wrap   justify-center py-24 max-w-7xl gap-x-9">
                 
-                <div className='section-banner w-3/6'>
+                <div className='section-banner w-[48%]'>
                     <Image
                         src={banner4}
                         alt='banner 4'
                         className='banner-image'
                     />
                 </div>
-                <div className='section-content w-3/6'>
+                <div className='section-content w-[48%]'>
                     <div className='heading mx-auto'>
                         <p><span> Accurate and easy</span> {" "}   time clocking for your employees
                         </p>
@@ -24,9 +24,9 @@ function FifthSection() {
                     Facial recognition-based time tracking for secure employee authentication
                     </div>
                     <div className='section-bullets  mt-8'>
-                        <p className='flex items-center'> <span><Image src={bulletTick} alt="bullet" /></span> Face and QR code based authentication modes</p>
-                        <p className='flex items-center'> <span><Image src={bulletTick} alt="bullet" /></span> No more time theft</p>
-                        <p className='flex items-center'> <span><Image src={bulletTick} alt="bullet" /></span> Seamless system integrations</p>
+                        <p className='flex flex-wrap items-center'> <span><Image src={bulletTick} alt="bullet" /></span> Face and QR code based authentication modes</p>
+                        <p className='flex flex-wrap items-center'> <span><Image src={bulletTick} alt="bullet" /></span> No more time theft</p>
+                        <p className='flex flex-wrap items-center'> <span><Image src={bulletTick} alt="bullet" /></span> Seamless system integrations</p>
                     </div>
 
                     <button class="learn-more-button bg-[#2265B0] ">Learn more <span>
@@ -37,10 +37,6 @@ function FifthSection() {
                     </span></button>
 
                 </div>
-
-
-
-
             </div>
         </div>
     )

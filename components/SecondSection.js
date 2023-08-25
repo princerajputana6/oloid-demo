@@ -5,9 +5,9 @@ import bulletTick from "../Assets/img/bullet-tick.svg"
 
 function SecondSection() {
     return (
-        <div className='common-section bg-[#F2F4F9]  w-screen flex justify-center'>
-            <div className="mx-auto flex   justify-center py-24 max-w-7xl gap-x-9">
-                <div className='section-content w-3/6'>
+        <div className='common-section bg-[#F2F4F9]  w-screen flex flex-wrap justify-center'>
+            <div className="mx-auto flex flex-wrap   justify-center py-24 max-w-7xl gap-x-9">
+                <div className='section-content w-[48%]'>
                     <div className='heading mx-auto'>
                         <p><span> Modern & secure</span> {" "} workplace access experience for your employees
                         </p>
@@ -16,9 +16,9 @@ function SecondSection() {
                         Choose from multiple form factors. Enable your employees to unlock any device using the same credentials
                     </div>
                     <div className='section-bullets  mt-8'>
-                        <p className='flex items-center'> <span><Image src={bulletTick} alt="bullet" /></span> Easy cloud-based access</p>
-                        <p className='flex items-center'> <span><Image src={bulletTick} alt="bullet" /></span> Seamless system integrations</p>
-                        <p className='flex items-center'> <span><Image src={bulletTick} alt="bullet" /></span> Multiple access modes</p>
+                        <p className='flex flex-wrap items-center'> <span><Image src={bulletTick} alt="bullet" /></span> Easy cloud-based access</p>
+                        <p className='flex flex-wrap items-center'> <span><Image src={bulletTick} alt="bullet" /></span> Seamless system integrations</p>
+                        <p className='flex flex-wrap items-center'> <span><Image src={bulletTick} alt="bullet" /></span> Multiple access modes</p>
                     </div>
 
                     <button class="learn-more-button bg-[#2265B0] ">Learn more <span>
@@ -29,7 +29,7 @@ function SecondSection() {
                     </span></button>
 
                 </div>
-                <div className='section-banner w-3/6'>
+                <div className='section-banner w-[48%]'>
                     <Image
                         src={banner1}
                         alt='banner 1'

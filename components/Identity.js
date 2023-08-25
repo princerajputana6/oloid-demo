@@ -5,8 +5,8 @@ import IdentityCard from './IdentityCard'
 
 function Identity() {
     return (
-        <div className='identity-section w-screen flex justify-center'>
-            <div className="mx-auto flex flex-col justify-center my-24 max-w-7xl gap-x-9">
+        <div className='identity-section w-screen flex flex-wrap justify-center'>
+            <div className="mx-auto flex flex-wrap flex-col justify-center my-24 max-w-7xl gap-x-9">
                 <div className='heading mx-auto'>
                 Enabling the
                     <span> {" "}
@@ -14,7 +14,7 @@ function Identity() {
                     </span>{" "}
                       for progressive organizations
                 </div>
-                <div className='workplace-cards flex gap-[1.25rem] mt-[3rem]'>
+                <div className='workplace-cards flex flex-wrap gap-[1.25rem] mt-[3rem]'>
                     <IdentityCard
                     image = "https://cdn-gkbkl.nitrocdn.com/EahsqmkNZSarsOQvgGaWKiasFdUDbxev/assets/images/optimized/rev-8b867e8/www.oloid.ai/wp-content/uploads/2022/08/human-resources-search-team-svg.svg"
                     title = "Who we are"
