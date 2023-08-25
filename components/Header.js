@@ -49,7 +49,7 @@ export default function Example() {
 
   return (
     <header className="bg-white sticky top-0 z-10 ">
-      <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+      <nav className="mx-auto flex max-w-7xl items-center justify-between py-6 px-4" aria-label="Global">
         <div className='flex items-center gap-x-14'>
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
@@ -205,7 +205,7 @@ export default function Example() {
         
         
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <button class="bg-[#2265B0] py-3.5 px-[26px] rounded-full text-sm font-semibold leading-6 text-[#fff]">Contact Us</button>
+            <button class="bg-[#2265B0] py-3.5 px-[26px] rounded-full text-sm font-semibold leading-[1.1rem] text-[#fff]">Contact Us</button>
         </div>
       </nav>
       <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>

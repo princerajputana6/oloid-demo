@@ -12,7 +12,7 @@ function SixthSection() {
                     </span> {" "}
                     your access control experience
                 </div>
-                <div className='description mt-5 mx-auto mb-8'>
+                <div className='description my-[1.9rem] mx-auto mb-8'>
                     A single, intuitive and open software platform with remote management,
                     dynamic access permissions, and real-time reporting.
                 </div>

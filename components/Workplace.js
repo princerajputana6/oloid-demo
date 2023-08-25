@@ -15,7 +15,7 @@ function Workplace() {
                         modern workplace
                     </span>
                 </div>
-                <div className='workplace-cards flex  gap-[1.25rem] mt-[3rem]'>
+                <div className='workplace-cards flex gap-[1.25rem] mt-[3rem]'>
                     <WorkplaceCard
                     image={"https://cdn-gkbkl.nitrocdn.com/EahsqmkNZSarsOQvgGaWKiasFdUDbxev/assets/images/optimized/rev-ef262b0/www.oloid.ai/wp-content/uploads/2023/07/testimonialimg3.png"}
                     title="Office"

@@ -2,10 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "AvenirBlack";
+  src: url('../public/Avenir/AvenirBlack.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+  
+@font-face {
+  font-family: "AvenirRoman";
+  src: url('../public/Avenir/AvenirRoman.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+  
+@font-face {
+  font-family: "AvenirMedium";
+  src: url('../public/Avenir/AvenirMedium.ttf');
+  font-weight: normal;
+  font-style: italic;
+}
+
 html {
   font-feature-settings: "clig" off, "liga" off;
   /* Paragraph/Default */
-  font-family: "Avenir", Sans-serif;
+
+  font-family: AvenirRoman;
+  font-feature-settings: 'clig' off, 'liga' off;
 }
 
 button {
@@ -13,7 +36,7 @@ button {
   box-shadow: none;
 }
 .max-w-7xl {
-  max-width: 1219px;
+  max-width: 1240px;
   width: 100%;
 }
 
@@ -26,18 +49,22 @@ button {
   height: 41.125rem;
 }
 
-/* first section styling */
-.hero-section .group {
-  display: none;
+
+.py-24 {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
 }
+
+
 .heading {
   max-width: 952.871px;
-  padding: 0 20px;
   text-align: center;
   font-feature-settings: "clig" off, "liga" off;
   font-size: 44px;
   font-weight: 900;
+  color: #233650;
   line-height: 56px; /* 127.273% */
+  font-family: AvenirBlack;
 }
 .heading span {
   background: linear-gradient(85deg, #5b9bed 11.98%, #c666bf 100%);
@@ -62,10 +89,43 @@ button {
   font-size: 20px;
   font-weight: 500;
   line-height: 34px; /* 170% */
-  padding: 0 20px;
 }
 .banner-image {
   border-radius: 19px;
+}
+
+/* first section styling */
+.hero-section {
+  background: linear-gradient(269deg, #F2F5F7 0%, #FEFEFE 100%);
+}
+.hero-section .group {
+  display: none;
+}
+.hero-section .heading {
+  text-align: start;
+  padding: 0;
+}
+.hero-section button {
+  max-height: 62px;
+}
+.hero-section button:nth-child(2) > span {
+  border-radius: 79px;
+  border: 2px solid  #2265B0;
+}
+
+.hero-section img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* first section */
+.first-section .card img{
+  height: 15.5rem;
+}
+
+.first-section .card .learn-more{
+  font-family: AvenirBlack;
 }
 
 /* card customization */
@@ -104,6 +164,8 @@ div[data-testid="flowbite-card"] > div .card-description {
   margin-left: 6px;
 }
 
+
+
 /* second section styling */
 .common-section .heading {
   text-align: start;
@@ -113,9 +175,6 @@ div[data-testid="flowbite-card"] > div .card-description {
   text-align: start;
 }
 
-.common-section .section-bullets {
-  padding: 0 20px;
-}
 .common-section .section-bullets p {
   color: #5b667b;
   font-size: 20px;
@@ -128,10 +187,9 @@ div[data-testid="flowbite-card"] > div .card-description {
 }
 
 .common-section .learn-more-button {
-  margin-left: 1.25rem;
-  margin-top: 2rem;
+  margin-top: 1.9rem;
   display: flex;
-  padding: 20px 30px 22px 30px;
+  padding: 19px 35px 19px 35px;
   justify-content: center;
   align-items: center;
   gap: 6px;
@@ -214,6 +272,7 @@ div[data-testid="flowbite-card"] > div .card-description {
   opacity: 1;
   position: relative;
   border: 1px solid #2265b0 !important;
+  height: 267px;
 }
 .workplace-card img {
   position: absolute;
@@ -228,11 +287,24 @@ div[data-testid="flowbite-card"] > div .card-description {
   
 }
 
+.workplace-card h5 {
+  color:  #233650;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: AvenirBlack;
+font-size: 20px;
+font-style: normal;
+font-weight: 900;
+line-height: 32px; 
+}
+
 .workplace-card:hover {
   background: linear-gradient(129.82deg, #5b9bed 8.5%, #c666bf 97.33%);
   color: white;
   opacity: 0.85;
   border: 1px solid #2265b0 !important;
+}
+.workplace-card a {
+  font-family: AvenirBlack;
 }
 .workplace-card:hover a, .workplace-card:hover p, .workplace-card:hover h5 {
   color: #fff;
