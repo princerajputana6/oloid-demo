@@ -231,7 +231,6 @@ div[data-testid="flowbite-card"] > div .card-description {
 }
 .identity-card {
   box-shadow: 0px 8px 28px 0px rgba(20, 20, 43, 0.1);
-  margin: 0px 18.666px 0px 0px;
   padding: 57px 32px 68px 32px;
   border-radius: 1.5rem;
   background: #fff;
