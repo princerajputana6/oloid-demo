@@ -8,16 +8,16 @@ function FifthSection() {
         <div className='common-section  w-screen flex flex-wrap justify-center'>
             <div className="mx-auto flex flex-wrap   justify-center py-24 max-w-7xl gap-x-9">
                 
-                <div className='section-banner w-[48%]'>
+                <div className='section-banner w-[47%]'>
                     <Image
                         src={banner4}
                         alt='banner 4'
                         className='banner-image'
                     />
                 </div>
-                <div className='section-content w-[48%]'>
+                <div className='section-content w-[49%]'>
                     <div className='heading mx-auto'>
-                        <p><span> Accurate and easy</span> {" "}   time clocking for your employees
+                        <p><span> Accurate and easy</span>{" "}time clocking for your employees
                         </p>
                     </div>
                     <div className='description mt-5 mx-auto'>

@@ -7,7 +7,7 @@ function SecondSection() {
     return (
         <div className='common-section bg-[#F2F4F9]  w-screen flex flex-wrap justify-center'>
             <div className="mx-auto flex flex-wrap   justify-center py-24 max-w-7xl gap-x-9">
-                <div className='section-content w-[48%]'>
+                <div className='section-content w-[49%]'>
                     <div className='heading mx-auto'>
                         <p><span> Modern & secure</span> {" "} workplace access experience for your employees
                         </p>
@@ -29,7 +29,7 @@ function SecondSection() {
                     </span></button>
 
                 </div>
-                <div className='section-banner w-[48%]'>
+                <div className='section-banner w-[47%]'>
                     <Image
                         src={banner1}
                         alt='banner 1'

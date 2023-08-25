@@ -311,10 +311,19 @@ line-height: 32px;
 .workplace-card a {
   font-family: AvenirBlack;
 }
+
 .workplace-card:hover a, .workplace-card:hover p, .workplace-card:hover h5 {
   color: #fff;
 }
 
+.workplace-card:hover .white-arrow {
+  display: block !important;
+}
+.workplace-card:hover .blue-arrow {
+  display: none;
+}
+
+white-arrow
 /* footer css */
 
 .footer-t,

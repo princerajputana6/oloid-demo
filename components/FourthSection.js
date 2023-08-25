@@ -7,7 +7,7 @@ function FourthSection() {
     return (
         <div className='common-section bg-[#F2F4F9]  w-screen flex flex-wrap justify-center'>
             <div className="mx-auto flex flex-wrap   justify-center py-24 max-w-7xl gap-x-9">
-                <div className='section-content w-[48%]'>
+                <div className='section-content w-[49%]'>
                     <div className='heading mx-auto'>
                         <p><span> Password-less & Username-less</span> {" "}  login experience for your workforce
                         </p>
@@ -29,7 +29,7 @@ function FourthSection() {
                     </span></button>
 
                 </div>
-                <div className='section-banner w-[48%]'>
+                <div className='section-banner w-[47%]'>
                     <Image
                         src={banner3}
                         alt='banner 3'

@@ -8,14 +8,14 @@ function ThirdSection() {
         <div className='common-section  w-screen flex flex-wrap justify-center'>
             <div className="mx-auto flex flex-wrap   justify-center py-24 max-w-7xl gap-x-9">
                 
-                <div className='section-banner w-[48%]'>
+                <div className='section-banner w-[49%]'>
                     <Image
                         src={banner2}
                         alt='banner 1'
                         className='banner-image'
                     />
                 </div>
-                <div className='section-content w-[48%]'>
+                <div className='section-content w-[47%]'>
                     <div className='heading mx-auto'>
                         <p><span> Visual workflow automation</span> {" "}  for security, safety & business operations
                         </p>
