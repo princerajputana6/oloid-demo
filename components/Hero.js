@@ -11,7 +11,7 @@ function Hero() {
     return (
         <div className='hero-section w-screen flex flex-wrap justify-center'>
             <div className='mx-auto flex flex-wrap  max-w-7xl rounded-none'>
-                <div className='w-1/2'>
+                <div className='left-section w-1/2'>
                     <div className='p-[10px] py-[59px]'>
                         <h1 className='heading text-[54px]  leading-[4.1rem] font-black'>
                             <span>Converging cyber and physical identity</span> for the modern workplace
@@ -33,7 +33,7 @@ function Hero() {
                         </div>
                     </div>
                 </div>
-                <div className='w-1/2'>
+                <div className='right-section w-1/2'>
                     <Carousel className=''>
                         <Image
                             alt="..."
