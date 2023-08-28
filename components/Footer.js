@@ -171,8 +171,8 @@ function Footer() {
                                 </svg>
                                 <span class="sr-only">Twitter</span>
                             </a>
-                            <Image src="https://cdn-gkbkl.nitrocdn.com/EahsqmkNZSarsOQvgGaWKiasFdUDbxev/assets/images/optimized/rev-8b867e8/www.oloid.ai/wp-content/uploads/2022/09/APP-STORE-v1-logo.svg" width={100} height={100} alt='Apple store' />
-                            <Image src="https://cdn-gkbkl.nitrocdn.com/EahsqmkNZSarsOQvgGaWKiasFdUDbxev/assets/images/optimized/rev-8b867e8/www.oloid.ai/wp-content/uploads/2022/09/play-store-v1.svg" width={100} height={100} alt="playstore" />
+                            <Image src="https://cdn-gkbkl.nitrocdn.com/EahsqmkNZSarsOQvgGaWKiasFdUDbxev/assets/images/optimized/rev-4a9b36e/www.oloid.ai/wp-content/uploads/2022/09/APP-STORE-v1-logo.svg" width={100} height={100} alt='Apple store' />
+                            <Image src="https://cdn-gkbkl.nitrocdn.com/EahsqmkNZSarsOQvgGaWKiasFdUDbxev/assets/images/optimized/rev-4a9b36e/www.oloid.ai/wp-content/uploads/2022/09/play-store-v1.svg" width={100} height={100} alt="playstore" />
                         </div>
                     </div>
                 </div>
