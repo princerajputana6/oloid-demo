@@ -7,7 +7,7 @@ function WorkplaceCard({ image, title, description, link }) {
 
             <h5 class="mb-2 text-[1.25rem] font-black tracking-tight text-[#233650] dark:text-white">{title}</h5>
             <p class="mb-[1.91rem] h-24 font-normal text-[18px] text-gray-700 dark:text-gray-400">{description}</p>
-            <a href={link} class="inline-flex items-center px-3 pl-0 py-2 text-[1rem]  text-center text-[#27354E] font-black">
+            <a href={link} class="inline-flex items-center px-3 pl-0 py-2 text-[18px] leading-[20px] text-center text-[#27354E] avenirBlack">
                 Learn more &nbsp;
                 <span className="blue-arrow">
                     <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M7.31451 1.18457L12.25 6.12008L7.31451 11.0556" stroke="#2265B0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M12.2499 6.12012L1.75 6.12012" stroke="#2265B0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </svg>

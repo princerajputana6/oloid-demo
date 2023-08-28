@@ -15,18 +15,17 @@ function Footer() {
                         </div>
 
                         <h5 className='sub-heading'>Elevate your workplace identity and access management today!</h5>
-                        <p className='text-md mt-4 text-white max-w-[26rem]'>
-                            We are enabeling secure and pivacy-forward authentication with a unified  identity framework
-                            that connetcts and managers workplace identity and access.
+                        <p className='text-[18px] mt-[.65rem] leading-[2.075rem] text-white '>
+                        We enable secure and privacy-forward authentication with a unified identity framework that connects and manages workplace identity and access.
                         </p>
                     </div>
-                    <div className="w-[48%] bg-white rounded-lg p-8">
-                        <h4 className='subscribe-heading text-[1.5rem] text-[#233650] font-bold avenirBlack'>Elevate your workplace identity and access managment experience today!</h4>
-                        <div className='subscribe-panel flex flex-wrap  flex-col items-start flex-shrink-0 w-full mx-auto sm:w-auto mt-4'>
-                            <label for="email" class="avenirBlack flex-shrink-0 mr-auto text-sm font-bold text-gray-800 md:mb-0 md:mr-4 dark:text-gray-400 md:m-0">Work Email* </label>
+                    <div className="w-[48%]  bg-[#f2f4f9] px-[35px] pt-[25px] pb-[20px] rounded-lg p-8">
+                        <h3 className='subscribe-heading text-[1.5rem] text-[#233650] leading-[2.25rem] font-bold avenirBlack'>Elevate your workplace identity and access managment experience today!</h3>
+                        <div className='subscribe-panel flex flex-wrap  flex-col items-start flex-shrink-0 w-full  mx-auto mb-[28px] sm:w-auto mt-[2.5rem]'>
+                            <label for="email" class="avenirBlack flex-shrink-0 mr-auto text-[15px] font-bold text-[#233751] mb-[9px]">Work Email* </label>
                             <form action="#" class="flex flex-wrap flex-col mt-1 items-center w-full md:flex-row">
-                                <input type="email" id="email" placeholder="" class="shadow-lg bg-white border-none border-gray-300 text-gray-900 md:w-64 mb-2 md:mb-0 md:mr-4 text-sm rounded-[30px] focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
-                                <input type="submit" class="text-white bg-[#2265b0] hover:bg-[#2265b0] focus:ring-4 focus:outline-none focus:ring-[#2265b0] font-medium rounded-[30px] text-[1rem]  sm:w-auto px-[3.375rem] py-[.75rem] text-center w-[112px]" value={"Submit"}/>
+                                <input type="email" id="email" style={{boxShadow: "0px 2px 12px rgba(20,20,43,8%) !important;"}} placeholder="" class="shadow-lg bg-white border-[#dee3eb] text-gray-900 md:w-64 mb-2 md:mb-0 md:mr-4 text-sm rounded-[30px] w-full p-2.5 required" />
+                                <input type="submit" class="text-white bg-[#2265b0] hover:bg-[#2265b0] focus:ring-4 focus:outline-none focus:ring-[#2265b0] font-medium rounded-[30px] text-[1rem]  sm:w-auto px-[3.375rem] py-[.75rem] text-center w-[112px] avenirBlack" value={"Submit"}/>
                             </form>
                         </div>
                     </div>
@@ -36,107 +35,107 @@ function Footer() {
                     <div class="mx-auto w-full max-w-screen-xl">
                         <div class="grid grid-cols-3 gap-8 px-4 py-6 lg:py-8 md:grid-cols-5">
                             <div>
-                                <h2 class="mb-6 text-[20px] font-semibold text-white uppercase dark:text-white">Product</h2>
+                                <h2 class="mb-6 text-[20px] font-semibold text-white avenirBlack dark:text-white">Product</h2>
                                 <ul class="text-white dark:text-gray-400 text-[1rem] font-normal">
                                     <li class="mb-4">
-                                        <a href="#" class=" hover:underline">M-Tag</a>
+                                        <a href="#" class=" hover:underline leading-[26px]">M-Tag</a>
                                     </li>
                                     <li class="mb-4">
-                                        <a href="#" class="hover:underline">Cloud kay</a>
+                                        <a href="#" class="hover:underline leading-[26px]">Cloud kay</a>
                                     </li>
                                     <li class="mb-4">
-                                        <a href="#" class="hover:underline">Smart reader</a>
+                                        <a href="#" class="hover:underline leading-[26px]">Smart reader</a>
                                     </li>
                                     <li class="mb-4">
-                                        <a href="#" class="hover:underline">Time Clock</a>
+                                        <a href="#" class="hover:underline leading-[26px]">Time Clock</a>
                                     </li>
                                     <li class="mb-4">
-                                        <a href="#" class="hover:underline">Workflow Automation</a>
+                                        <a href="#" class="hover:underline leading-[26px]">Workflow Automation</a>
                                     </li>
                                     <li class="mb-4">
-                                        <a href="#" class="hover:underline">Pasword Authenticator</a>
+                                        <a href="#" class="hover:underline leading-[26px]">Pasword Authenticator</a>
                                     </li>
                                 </ul>
                             </div>
                             <div>
-                                <h2 class="mb-6 text-[20px] font-semibold text-white uppercase dark:text-white">Solutions</h2>
+                                <h2 class="mb-6 text-[20px] font-semibold text-white avenirBlack dark:text-white">Solutions</h2>
                                 <ul class="text-white dark:text-gray-400 text-[1rem] font-normal">
                                     <li class="mb-4">
-                                        <a href="#" class="hover:underline">Overview</a>
+                                        <a href="#" class="hover:underline leading-[26px]">Overview</a>
                                     </li>
                                     <li class="mb-4">
-                                        <a href="#" class="hover:underline">Offices</a>
+                                        <a href="#" class="hover:underline leading-[26px]">Offices</a>
                                     </li>
                                     <li class="mb-4">
-                                        <a href="#" class="hover:underline">Factories & warehouses
+                                        <a href="#" class="hover:underline leading-[26px]">Factories & warehouses
                                         </a>
                                     </li>
                                     <li class="mb-4">
-                                        <a href="#" class="hover:underline">Enterprise</a>
+                                        <a href="#" class="hover:underline leading-[26px]">Enterprise</a>
                                     </li>
                                     <li class="mb-4">
-                                        <a href="#" class="hover:underline">commercial real Estate</a>
+                                        <a href="#" class="hover:underline leading-[26px]">commercial real Estate</a>
                                     </li>
                                 </ul>
                             </div>
                             <div>
-                                <h2 class="mb-6 text-[20px] font-semibold text-white uppercase dark:text-white">Capabilities</h2>
+                                <h2 class="mb-6 text-[20px] font-semibold text-white avenirBlack dark:text-white">Capabilities</h2>
                                 <ul class="text-white dark:text-gray-400 text-[1rem] font-normal">
                                     <li class="mb-4">
-                                        <a href="#" class="hover:underline">Integrations</a>
+                                        <a href="#" class="hover:underline leading-[26px]">Integrations</a>
                                     </li>
                                     <li class="mb-4">
-                                        <a href="#" class="hover:underline">Security & Data Privacy</a>
+                                        <a href="#" class="hover:underline leading-[26px]">Security & Data Privacy</a>
                                     </li>
                                     <li class="mb-4">
-                                        <a href="#" class="hover:underline">Factories & warehouses
+                                        <a href="#" class="hover:underline leading-[26px]">Factories & warehouses
                                         </a>
                                     </li>
                                     <li class="mb-4">
-                                        <a href="#" class="hover:underline">Enterprise</a>
+                                        <a href="#" class="hover:underline leading-[26px]">Enterprise</a>
                                     </li>
                                     <li class="mb-4">
-                                        <a href="#" class="hover:underline">commercial real Estate</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h2 class="mb-6 text-[20px] font-semibold text-white uppercase dark:text-white">Resources</h2>
-                                <ul class="text-white dark:text-gray-400 text-[1rem] font-normal">
-                                    <li class="mb-4">
-                                        <a href="#" class="hover:underline">Blog</a>
-                                    </li>
-                                    <li class="mb-4">
-                                        <a href="#" class="hover:underline">White papers</a>
-                                    </li>
-                                    <li class="mb-4">
-                                        <a href="#" class="hover:underline">Case study</a>
-                                    </li>
-                                    <li class="mb-4">
-                                        <a href="#" class="hover:underline">News</a>
+                                        <a href="#" class="hover:underline leading-[26px]">commercial real Estate</a>
                                     </li>
                                 </ul>
                             </div>
                             <div>
-                                <h2 class="mb-6 text-[20px] font-semibold text-white uppercase dark:text-white">Company</h2>
+                                <h2 class="mb-6 text-[20px] font-semibold text-white avenirBlack dark:text-white">Resources</h2>
                                 <ul class="text-white dark:text-gray-400 text-[1rem] font-normal">
                                     <li class="mb-4">
-                                        <a href="#" class="hover:underline">About Us</a>
+                                        <a href="#" class="hover:underline leading-[26px]">Blog</a>
                                     </li>
                                     <li class="mb-4">
-                                        <a href="#" class="hover:underline">Inverters & Advisers</a>
+                                        <a href="#" class="hover:underline leading-[26px]">White papers</a>
                                     </li>
                                     <li class="mb-4">
-                                        <a href="#" class="hover:underline">Work with US</a>
+                                        <a href="#" class="hover:underline leading-[26px]">Case study</a>
                                     </li>
                                     <li class="mb-4">
-                                        <a href="#" class="hover:underline">Go Green</a>
+                                        <a href="#" class="hover:underline leading-[26px]">News</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h2 class="mb-6 text-[20px] font-semibold text-white avenirBlack dark:text-white">Company</h2>
+                                <ul class="text-white dark:text-gray-400 text-[1rem] font-normal">
+                                    <li class="mb-4">
+                                        <a href="#" class="hover:underline leading-[26px]">About Us</a>
                                     </li>
                                     <li class="mb-4">
-                                        <a href="#" class="hover:underline">Partner with Us</a>
+                                        <a href="#" class="hover:underline leading-[26px]">Inverters & Advisers</a>
                                     </li>
                                     <li class="mb-4">
-                                        <a href="#" class="hover:underline">Contact Us</a>
+                                        <a href="#" class="hover:underline leading-[26px]">Work with US</a>
+                                    </li>
+                                    <li class="mb-4">
+                                        <a href="#" class="hover:underline leading-[26px]">Go Green</a>
+                                    </li>
+                                    <li class="mb-4">
+                                        <a href="#" class="hover:underline leading-[26px]">Partner with Us</a>
+                                    </li>
+                                    <li class="mb-4">
+                                        <a href="#" class="hover:underline leading-[26px]">Contact Us</a>
                                     </li>
                                 </ul>
                             </div>
@@ -150,7 +149,7 @@ function Footer() {
                             <p className='text-white'>legal</p>
                             <p className='text-white'>Cookies</p>
                         </div>
-                        <span class="text-[1rem] w-2/6 text-white dark:text-gray-300 sm:text-center">© 2023 <a href="https://flowbite.com/">OLOID | </a>. All Rights Reserved. All trademarks are properties of their respective owner.
+                        <span class="text-[1rem] leading-[26px] w-2/6 text-white dark:text-gray-300 sm:text-start text-start">© 2023 <a href="https://flowbite.com/">OLOID | </a>. All Rights Reserved. All trademarks are properties of their respective owner.
                         </span>
                         <div class="flex flex-wrap mt-4 space-x-5 sm:justify-center items-center md:mt-0">
 

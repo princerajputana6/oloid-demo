@@ -7,7 +7,7 @@ import userLogo from "../Assets/img/user.png"
 function Testimonial() {
     return (
         <div className=' w-screen flex flex-wrap justify-center'>
-            <div className="mx-auto flex flex-wrap flex-col justify-center py-24 max-w-7xl gap-x-9">
+            <div className="mx-auto flex flex-wrap flex-col justify-center  max-w-7xl gap-x-9">
                 <div className="testimonial flex">
                     <div className="testimonial-logo w-2/6 flex flex-wrap justify-end mr-[5.375rem]">
                         <Image src={companyLogo} alt="company Logo" className='max-h-[11.438rem]'/>
@@ -21,8 +21,8 @@ function Testimonial() {
                                 <Image src={userLogo} alt="user icon" />
                             </div>
                             <div className='user-info flex flex-wrap flex-col items-start '>
-                                <p className='user-name text-2xl font-[800] leading-9'>Vineet Jain</p>
-                                <p className='user-designation text-[#5B667B] text-xl leading-5 mt-[6px]'>CEO at Egnyte</p>
+                                <p className='user-name text-[1.5rem] leading-[2.25rem] avenirBlack text-[#233650]'>Vineet Jain</p>
+                                <p className='user-designation text-[#5B667B] text-[1.25rem] leading-[1.35rem] mt-[6px]'>CEO at Egnyte</p>
                             </div>
                         </div>
                     </div>

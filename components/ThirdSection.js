@@ -29,7 +29,7 @@ function ThirdSection() {
                         <p className='flex flex-wrap items-center'> <span><Image src={bulletTick} alt="bullet" /></span> Custom rules to suit your business</p>
                     </div>
 
-                    <button class="learn-more-button bg-[#2265B0] ">Learn more <span>
+                    <button class="learn-more-button bg-[#2265B0] avenirBlack">Learn more <span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                             <path d="M7.35956 1.33374L13.0001 6.97432L7.35956 12.6149" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             <path d="M13.0001 6.97437L1.00012 6.97437" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />

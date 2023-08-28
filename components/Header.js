@@ -205,7 +205,7 @@ export default function Example() {
 
 
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <button class="bg-[#2265B0] py-3.5 px-[26px] rounded-full text-[1rem] font-semibold leading-[1.1rem] text-[#fff]">Contact Us</button>
+          <button class="bg-[#2265B0] py-3.5 px-[26px] rounded-full text-[1rem] font-semibold leading-[1.1rem] text-[#fff] avenirBlack">Contact Us</button>
         </div>
       </nav>
       <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>

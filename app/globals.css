@@ -57,7 +57,9 @@ button {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
 }
-
+.avenirBlack {
+  font-family: AvenirBlack;
+}
 .heading {
   max-width: 952.871px;
   text-align: center;
@@ -81,13 +83,11 @@ button {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #233650;
+  font-family: AvenirBlack;
   font-size: 22px;
   line-height: 34px;
-  font-family: AvenirBlack;
 }
-.avenirBlack {
-  font-family: AvenirBlack;
-}
+
 .description {
   max-width: 899.723px;
   min-height: 43.825px;
@@ -108,10 +108,15 @@ button {
   background: linear-gradient(269deg, #f2f5f7, #fefefe);
   position: relative;
 }
+.hero-section .heading {
+  font-size: 54px;
+  line-height: 66px;
+}
 .hero-section .left-section {
   position: relative;
   z-index: 3;
 }
+
 .hero-section .right-section {
   position: absolute;
   right: 0;
@@ -262,6 +267,10 @@ div[data-testid="flowbite-card"] > div .card-description {
 .identity-card img {
   text-align: left;
   margin-bottom: 1.25rem;
+  height: auto;
+  vertical-align: middle;
+  display: inline-block;
+  max-width: 81px;
 }
 
 .identity-card h4 {
@@ -322,15 +331,14 @@ div[data-testid="flowbite-card"] > div .card-description {
   font-weight: 900;
   line-height: 32px;
 }
-
+.workplace-card a {
+  color: #2265b0;
+}
 .workplace-card:hover {
   background: linear-gradient(129.82deg, #5b9bed 8.5%, #c666bf 97.33%);
   color: white;
   opacity: 0.85;
   border: 1px solid #2265b0 !important;
-}
-.workplace-card a {
-  font-family: AvenirBlack;
 }
 
 .workplace-card:hover a,
@@ -353,6 +361,7 @@ div[data-testid="flowbite-card"] > div .card-description {
   border-bottom: 1px solid rgb(255 255 255 / 15%) !important;
   padding-bottom: 3.1rem !important;
 }
+
 
 .footer-b {
   border-bottom: 1px solid rgb(255 255 255 / 15%) !important;
