@@ -7,7 +7,7 @@ function Footer() {
         <div className=' bg-[#27354E] w-screen flex flex-wrap  justify-center'>
             <div className="mx-auto flex flex-wrap  flex-col justify-center py-24 pb-0 max-w-7xl gap-x-9">
                 <div className="footer-t flex flex-wrap  justify-between ">
-                    <div className="w-[48%] p-4">
+                    <div className="w-[47%] p-4">
                         <div className="flex flex-wrap  lg:flex-1 mb-5">
                             <a href="/" className=" p-1.5 text-3xl text-[#fff] max-w-[140px]">
                                 <img src="https://www.oloid.ai/wp-content/uploads/2023/03/whitewordmark-2.png" alt="logo"  />
@@ -19,8 +19,8 @@ function Footer() {
                         We enable secure and privacy-forward authentication with a unified identity framework that connects and manages workplace identity and access.
                         </p>
                     </div>
-                    <div className="w-[48%]  bg-[#f2f4f9] px-[35px] pt-[25px] pb-[20px] rounded-lg p-8">
-                        <h3 className='subscribe-heading text-[1.5rem] text-[#233650] leading-[2.25rem] font-bold avenirBlack'>Elevate your workplace identity and access managment experience today!</h3>
+                    <div className="w-[49.5%] max-h-[260px]  bg-[#f2f4f9] px-[35px] pt-[25px] pb-[20px] rounded-lg p-8">
+                        <h3 className='subscribe-heading text-[1.5rem] text-[#233650] leading-[1.80rem] font-bold avenirBlack'>Elevate your workplace identity and access managment experience today!</h3>
                         <div className='subscribe-panel flex flex-wrap  flex-col items-start flex-shrink-0 w-full  mx-auto mb-[28px] sm:w-auto mt-[2.5rem]'>
                             <label for="email" class="avenirBlack flex-shrink-0 mr-auto text-[15px] font-bold text-[#233751] mb-[9px]">Work Email* </label>
                             <form action="#" class="flex flex-wrap flex-col mt-1 items-center w-full md:flex-row">
