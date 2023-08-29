@@ -151,6 +151,43 @@
   .workplace-card a {
     font-size: 18px;
   }
+  .workplace-mobile-card {
+    border: 1px solid #2265b0;
+    box-shadow: 0px 12px 24px rgba(20, 20, 43, 0.02);
+    background: #f2f4f9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 18px;
+    margin-bottom: 30px;
+    padding: 25px 20px;
+  }
+  .workplace-mobile-card button {
+    padding: 0;
+    color: white;
+    font-family: AvenirBlack;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .workplace-mobile-card:before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #233650;
+    z-index: 0;
+    opacity: 0.8;
+  }
+  .workplace-mobile-card button:hover {
+    background: none;
+  }
+  .workplace-mobile-card button:active,
+  .workplace-mobile-card button:focus {
+    outline: none;
+    box-shadow: none;
+  }
   /* testimonial section */
   .testimonialcheck {
     display: none;
@@ -174,6 +211,7 @@
     line-height: 28px;
     width: 100%;
     padding: 0;
+    background-color: transparent;
   }
   .testimonial {
     flex-direction: column;
