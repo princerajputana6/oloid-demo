@@ -47,11 +47,11 @@ function Workplace() {
                 <div className='workplace-mobile-cards flex flex-wrap gap-[1.25rem] mt-[3rem]'>
                     <Accordion className="w-full border-none">
                         <Accordion.Panel className='workplace-card'>
-                            <Accordion.Title style={{border:"1px solid lightgray",marginBottom:"36px",borderRadius:"20px"}}>
+                            <Accordion.Title style={{border:"1px solid lightgray",marginBottom:"36px",borderRadius:"20px", backgroundImage:"url(https://cdn-gkbkl.nitrocdn.com/EahsqmkNZSarsOQvgGaWKiasFdUDbxev/assets/images/optimized/rev-4a9b36e/www.oloid.ai/wp-content/uploads/2023/07/testimonialimg3.png)", backgroundPosition:"center",backgroundSize:"cever"}}>
                                 Factories and Warehouses
-                                <img src="https://cdn-gkbkl.nitrocdn.com/EahsqmkNZSarsOQvgGaWKiasFdUDbxev/assets/images/optimized/rev-4a9b36e/www.oloid.ai/wp-content/uploads/2023/07/testimonialimg3.png" alt="workplace card" />
+                                {/* <img src="https://cdn-gkbkl.nitrocdn.com/EahsqmkNZSarsOQvgGaWKiasFdUDbxev/assets/images/optimized/rev-4a9b36e/www.oloid.ai/wp-content/uploads/2023/07/testimonialimg3.png" alt="workplace card" /> */}
                             </Accordion.Title>
-                            <Accordion.Content className='bg-[#f2f4f9]'>
+                            <Accordion.Content className='bg-[#f2f4f9] mt-[-36px]'>
                                 <p>End-to-end safety & security solutions for the deskless worker.</p>
                                 <Testimonial />
                                 <a href="" className='inline-flex items-center px-3 pl-0 py-2 text-[18px] leading-[20px] text-center text-[#2265B0] avenirBlack'>
@@ -63,10 +63,10 @@ function Workplace() {
                             </Accordion.Content>
                         </Accordion.Panel>
                         <Accordion.Panel className='workplace-card'>
-                            <Accordion.Title style={{border:"1px solid lightgray",marginBottom:"36px",borderRadius:"20px"}}>
+                            <Accordion.Title style={{border:"1px solid lightgray",marginBottom:"36px",borderRadius:"20px", backgroundImage:"url(https://cdn-gkbkl.nitrocdn.com/EahsqmkNZSarsOQvgGaWKiasFdUDbxev/assets/images/optimized/rev-4a9b36e/www.oloid.ai/wp-content/uploads/2023/07/testimonialimg2.png)", backgroundPosition:"center",backgroundSize:"cever"}}>
                                 Enterprise
                             </Accordion.Title>
-                            <Accordion.Content className='bg-[#f2f4f9]'>
+                            <Accordion.Content className='bg-[#f2f4f9] mt-[-36px]'>
                                 <p>End-to-end safety & security solutions for the deskless worker.</p>
                                 <Testimonial />
                                 <a href="" className='inline-flex items-center px-3 pl-0 py-2 text-[18px] leading-[20px] text-center text-[#2265B0] avenirBlack'>
@@ -78,10 +78,10 @@ function Workplace() {
                             </Accordion.Content>
                         </Accordion.Panel>
                         <Accordion.Panel className='workplace-card'>
-                            <Accordion.Title style={{border:"1px solid lightgray",marginBottom:"36px",borderRadius:"20px"}}>
+                            <Accordion.Title style={{border:"1px solid lightgray",marginBottom:"36px",borderRadius:"20px",backgroundImage:"url(https://cdn-gkbkl.nitrocdn.com/EahsqmkNZSarsOQvgGaWKiasFdUDbxev/assets/images/optimized/rev-4a9b36e/www.oloid.ai/wp-content/uploads/2023/07/Rectangle-872-3.png)", backgroundPosition:"center",backgroundSize:"cever"}}>
                                 Offices
                             </Accordion.Title>
-                            <Accordion.Content className='bg-[#f2f4f9]'>
+                            <Accordion.Content className='bg-[#f2f4f9] mt-[-36px] '>
                                 <p>End-to-end safety & security solutions for the deskless worker.</p>
                                 <Testimonial />
                                 <a href="" className='inline-flex items-center px-3 pl-0 py-2 text-[18px] leading-[20px] text-center text-[#2265B0] avenirBlack'>
@@ -93,10 +93,10 @@ function Workplace() {
                             </Accordion.Content>
                         </Accordion.Panel>
                         <Accordion.Panel className='workplace-card'>
-                            <Accordion.Title style={{border:"1px solid lightgray",marginBottom:"36px",borderRadius:"20px"}}>
+                            <Accordion.Title style={{border:"1px solid lightgray",marginBottom:"36px",borderRadius:"20px",backgroundImage:"url(https://cdn-gkbkl.nitrocdn.com/EahsqmkNZSarsOQvgGaWKiasFdUDbxev/assets/images/optimized/rev-4a9b36e/www.oloid.ai/wp-content/uploads/2023/07/testimonialimg1.png)", backgroundPosition:"center",backgroundSize:"cever"}}>
                                 Commercial Real Estate
                             </Accordion.Title>
-                            <Accordion.Content className='bg-[#f2f4f9]'>
+                            <Accordion.Content className='bg-[#f2f4f9] mt-[-36px]'>
                                 <p>End-to-end safety & security solutions for the deskless worker.</p>
                                 <Testimonial />
                                 <a href="" className='inline-flex items-center px-3 pl-0 py-2 text-[18px] leading-[20px] text-center text-[#2265B0] avenirBlack'>

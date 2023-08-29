@@ -1,4 +1,3 @@
-
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .heading {
     font-size: 24px;
@@ -33,7 +32,7 @@
     line-height: 40px;
     text-align: center;
   }
-  .left-section> div > div {
+  .left-section > div > div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -91,16 +90,16 @@
   .common-section .heading {
     margin-top: 1.85rem;
   }
-  .common-section > div.common-first{
+  .common-section > div.common-first {
     flex-direction: column-reverse;
   }
-  .common-section > div.common-second{
+  .common-section > div.common-second {
     flex-direction: column;
   }
   .common-section > div.common-third {
     flex-direction: column-reverse;
   }
-.common-section > div.common-fourth {
+  .common-section > div.common-fourth {
     flex-direction: column;
   }
 
@@ -109,7 +108,7 @@
     width: 100%;
   }
 
-  .common-section .section-bullets p{
+  .common-section .section-bullets p {
     font-size: 15px;
     line-height: 26px; /* 170% */
   }
@@ -127,7 +126,7 @@
   .workplace-mobile-cards {
     display: flex;
   }
-  .workplace-mobile-cards h2 img{
+  .workplace-mobile-cards h2 img {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -142,7 +141,7 @@
     width: 100%;
   }
   .workplace-card h5 {
-    font-size: 18px ;
+    font-size: 18px;
     line-height: 30px;
   }
   .workplace-card p {
@@ -158,7 +157,6 @@
   }
   .testimonial-section {
     flex-wrap: wrap;
-
   }
   .testimonial-section > div {
     padding: 0;
@@ -248,7 +246,7 @@
   }
   .newsletter h3 {
     text-align: center;
-    font-size: 18px ;
+    font-size: 18px;
     line-height: 30px;
   }
   .newsletter label {
@@ -266,13 +264,12 @@
     width: 100%;
     text-align: center;
   }
-  .footer-c  > div > div {
+  .footer-c > div > div {
     width: 100%;
     display: flex;
     align-items: center;
-
   }
-  .footer-c  > div .doc-links {
+  .footer-c > div .doc-links {
     justify-content: space-around;
     margin-bottom: 22px;
   }
@@ -293,54 +290,53 @@
   .footer-c .social > div:first-child {
     margin-bottom: 20px;
   }
-
-  
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 540px) {
   .hero-section .right-section {
     position: relative;
     width: 100%;
     aspect-ratio: 16/12;
     max-height: 300px;
   }
-} 
+}
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-/* hero section */
-.hero-section .heading {
-  font-size: 40px;
-  line-height: 50px;
-  text-align: start;
-}
-.left-section, .right-section {
-  width: 50%;
-}
-.right-section {
-  position: unset;
-}
-/* first section */
-.card-wrapper {
-  column-gap: 20px;
-  row-gap: 20px;
-}
-.card-wrapper .card {
-  max-width: 49%;
-  flex: 0 0 48.5%;
-}
+  /* hero section */
+  .hero-section .heading {
+    font-size: 40px;
+    line-height: 50px;
+    text-align: start;
+  }
+  .left-section,
+  .right-section {
+    width: 50%;
+  }
+  .right-section {
+    position: unset;
+  }
+  /* first section */
+  .card-wrapper {
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+  .card-wrapper .card {
+    max-width: 49%;
+    flex: 0 0 48.5%;
+  }
   /* common section css */
   .common-section .heading {
     margin-top: 1.85rem;
   }
-  .common-section > div.common-first{
+  .common-section > div.common-first {
     flex-direction: column-reverse;
   }
-  .common-section > div.common-second{
+  .common-section > div.common-second {
     flex-direction: column;
   }
   .common-section > div.common-third {
     flex-direction: column-reverse;
   }
-.common-section > div.common-fourth {
+  .common-section > div.common-fourth {
     flex-direction: column;
   }
 
@@ -349,31 +345,31 @@
     width: 100%;
   }
 
-  .common-section .section-bullets p{
+  .common-section .section-bullets p {
     font-size: 15px;
     line-height: 26px; /* 170% */
   }
   .common-section .learn-more-button {
     padding: 10px 31px 12px 31px;
   }
-/* workplace section */
-.workplace-card {
-  max-width: 48.5%;
-  width: 100%;
-  height: fit-content;
-}
-/* identity section */
-.identity-cards .identity-card {
-  max-width: 100%;
-}
-.newsletter input {
-  width: 100%;
-}
-.newsletter input:first-child {
-  margin-bottom: 28px;
-}
-.newsletter {
-  padding: 35px 25px 30px;
-  max-height: fit-content;
-}
+  /* workplace section */
+  .workplace-card {
+    max-width: 48.5%;
+    width: 100%;
+    height: fit-content;
+  }
+  /* identity section */
+  .identity-cards .identity-card {
+    max-width: 100%;
+  }
+  .newsletter input {
+    width: 100%;
+  }
+  .newsletter input:first-child {
+    margin-bottom: 28px;
+  }
+  .newsletter {
+    padding: 35px 25px 30px;
+    max-height: fit-content;
+  }
 }
