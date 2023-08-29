@@ -46,7 +46,7 @@ function Workplace() {
                 </div>
                 <div className='workplace-mobile-cards flex flex-wrap gap-[1.25rem] mt-[3rem]'>
                     <Accordion className="w-full border-none">
-                        <Accordion.Panel className='workplace-card' >
+                        <Accordion.Panel>
                             <div className='workplace-mobile-card' style={{ background: "url('https://www.oloid.ai/wp-content/uploads/2023/07/testimonialimg3.png')  no-repeat;" }}>
                                 <Accordion.Title >
                                     Factories and Warehouses
@@ -65,7 +65,7 @@ function Workplace() {
                             </div>
 
                         </Accordion.Panel>
-                        <Accordion.Panel className='workplace-card'>
+                        <Accordion.Panel >
                         <div className='workplace-mobile-card' style={{ background: "url('https://www.oloid.ai/wp-content/uploads/2023/07/testimonialimg3.png')  no-repeat;" }}>
                                 <Accordion.Title >
                                     Enterprise
