@@ -6,7 +6,7 @@ import bulletTick from "../Assets/img/bullet-tick.svg"
 function FourthSection() {
     return (
         <div className='common-section bg-[#F2F4F9]  w-screen flex flex-wrap justify-center'>
-            <div className="mx-auto flex flex-wrap   justify-center py-24 max-w-7xl gap-x-9">
+            <div className="common-third mx-auto flex flex-wrap   justify-center py-24 max-w-7xl gap-x-9">
                 <div className='section-content w-[49%]'>
                     <div className='heading mx-auto'>
                         <p><span> Password-less & Username-less</span> {" "}  login experience for your workforce

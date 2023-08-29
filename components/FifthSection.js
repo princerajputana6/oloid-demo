@@ -6,7 +6,7 @@ import bulletTick from "../Assets/img/bullet-tick.svg"
 function FifthSection() {
     return (
         <div className='common-section  w-screen flex flex-wrap justify-center'>
-            <div className="mx-auto flex flex-wrap   justify-center py-24 max-w-7xl gap-x-9">
+            <div className="common-fourth mx-auto flex flex-wrap   justify-center py-24 max-w-7xl gap-x-9">
                 
                 <div className='section-banner w-[47%]'>
                     <Image

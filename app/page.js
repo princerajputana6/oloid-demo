@@ -27,7 +27,10 @@ export default function Home() {
      <FifthSection/>
      <SixthSection/>
      <Workplace/>
+     <div className="testimonialcheck">
      <Testimonial/>
+     </div>
+     
      <Identity/>
      <Footer/>
   </div>

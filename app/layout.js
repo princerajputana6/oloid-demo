@@ -1,4 +1,5 @@
 import './globals.css'
+import './customResponsive.css'
 import Head from 'next/head';
 export const metadata = {
   title: 'oloid',

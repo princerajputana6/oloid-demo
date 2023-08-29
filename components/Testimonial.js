@@ -6,7 +6,7 @@ import userLogo from "../Assets/img/user.png"
 
 function Testimonial() {
     return (
-        <div className=' w-screen flex flex-wrap justify-center'>
+        <div className='testimonial-section w-screen flex flex-wrap justify-center'>
             <div className="mx-auto flex flex-wrap flex-col justify-center  max-w-7xl gap-x-9">
                 <div className="testimonial flex">
                     <div className="testimonial-logo w-2/6 flex flex-wrap justify-end mr-[5.375rem]">

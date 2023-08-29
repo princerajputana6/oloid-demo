@@ -11,12 +11,12 @@ function Hero() {
     return (
         <div className='hero-section w-screen flex flex-wrap justify-center'>
             <div className='mx-auto flex flex-wrap  max-w-7xl rounded-none'>
-                <div className='left-section w-1/2'>
+                <div className='left-section sm:w-full md:w-full lg:w-1/2 '>
                     <div className='p-[10px] py-[59px]'>
                         <h1 className='heading text-[54px]  leading-[4.1rem]'>
                             <span>Converging cyber and physical identity</span> for the modern workplace
                         </h1>
-                        <p className='text-[1.25rem] mt-[1rem] leading-[2.3rem] font-medium'>Secure your workplace, automate business processes, and elevate employee experience.</p>
+                        <p className='sm:text-[15px] md:text-[15px] lg:text-[1.25rem] text-[1.25rem] mt-[1rem] sm:leading-[1.65rem] leading-[2.3rem] font-medium'>Secure your workplace, automate business processes, and elevate employee experience.</p>
                         <div className='flex flex-wrap mt-[2.5rem]'>
                             <button className='flex flex-wrap items-center text-white leading-[20px] px-[30px] pt-[20px] pb-[22px] bg-[#2265b0] rounded-[6rem] text-[18px] avenirBlack'>Get Started &nbsp; <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 15 14" fill="none">
                                 <path d="M7.85944 1.21542L13.5 6.856L7.85944 12.4966" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -33,7 +33,7 @@ function Hero() {
                         </div>
                     </div>
                 </div>
-                <div className='right-section w-1/2'>
+                <div className='right-section sm:w-full md:w-full lg:w-1/2 '>
                     <Carousel className=''>
                         <Image
                             alt="..."

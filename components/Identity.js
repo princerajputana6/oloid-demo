@@ -10,7 +10,7 @@ function Identity() {
                 <div className='heading'>
                 Enabling the<span> {" "}future of work</span>{" "}for progressive organizations
                 </div>
-                <div className='workplace-cards flex flex-wrap gap-[1.75rem] mt-[3rem]'>
+                <div className='identity-cards flex flex-wrap gap-[1.75rem] gap-y-[3.5rem] mt-[3rem]'>
                     <IdentityCard
                     image = "https://cdn-gkbkl.nitrocdn.com/EahsqmkNZSarsOQvgGaWKiasFdUDbxev/assets/images/optimized/rev-4a9b36e/www.oloid.ai/wp-content/uploads/2022/08/human-resources-search-team-svg.svg"
                     title = "Who we are"

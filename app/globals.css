@@ -60,6 +60,7 @@ button {
 .avenirBlack {
   font-family: AvenirBlack;
 }
+
 .heading {
   max-width: 952.871px;
   text-align: center;
@@ -304,6 +305,9 @@ div[data-testid="flowbite-card"] > div .card-description {
 .identity-card a > span {
   margin-left: 6px;
 }
+.workplace-mobile-cards {
+  display: none;
+}
 .workplace-card {
   opacity: 1;
   position: relative;
@@ -353,6 +357,9 @@ div[data-testid="flowbite-card"] > div .card-description {
 .workplace-card:hover .blue-arrow {
   display: none;
 }
+.testimonialcheck {
+  display: block;
+}
 
 /* footer css */
 
@@ -365,4 +372,8 @@ div[data-testid="flowbite-card"] > div .card-description {
 
 .footer-b {
   border-bottom: 1px solid rgb(255 255 255 / 15%) !important;
+}
+.footer-c .social> div {
+  display: flex;
+  gap: 20px;
 }

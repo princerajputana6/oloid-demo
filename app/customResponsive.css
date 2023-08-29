@@ -1,0 +1,379 @@
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .heading {
+    font-size: 24px;
+    line-height: 34px; /* 133.333% */
+  }
+
+  .sub-heading {
+    background: linear-gradient(to right, #5b9bed 0%, #cc63bc 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #233650;
+    font-family: AvenirBlack;
+    font-size: 22px;
+    line-height: 34px;
+  }
+
+  .description {
+    font-size: 15px;
+    line-height: 26px; /* 170% */
+  }
+  .py-24 {
+    padding: 72px 30px !important;
+  }
+
+  /* hero section */
+  .hero-section {
+    max-height: fit-content;
+  }
+  .hero-section .heading {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .left-section> div > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-section .right-section {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/12;
+    max-height: 500px;
+  }
+  .hero-section .right-section:before {
+    content: none;
+  }
+
+  .left-section p {
+    text-align: center;
+    color: #5b667b;
+  }
+
+  .left-section button:first-child {
+    padding: 10px 31px 12px 31px;
+  }
+  .left-section button:last-child {
+    padding: 10px 0px 12px 6px;
+  }
+
+  /* first section css */
+
+  .first-section > div {
+    padding: 72px 30px;
+  }
+  .card-wrapper .card {
+    max-width: 100%;
+  }
+  .card-wrapper .card h5 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .card-wrapper .card .card-description {
+    font-size: 15px;
+    line-height: 26px;
+  }
+  .card-wrapper .card .learn-more {
+    margin-top: 1.25rem;
+    margin-bottom: 3.25rem;
+    font-size: 1rem;
+    line-height: 18px;
+  }
+
+  .card-wrapper .card:last-child .learn-more {
+    margin-bottom: 0rem;
+  }
+
+  /* common section css */
+  .common-section .heading {
+    margin-top: 1.85rem;
+  }
+  .common-section > div.common-first{
+    flex-direction: column-reverse;
+  }
+  .common-section > div.common-second{
+    flex-direction: column;
+  }
+  .common-section > div.common-third {
+    flex-direction: column-reverse;
+  }
+.common-section > div.common-fourth {
+    flex-direction: column;
+  }
+
+  .common-section .section-content,
+  .common-section .section-banner {
+    width: 100%;
+  }
+
+  .common-section .section-bullets p{
+    font-size: 15px;
+    line-height: 26px; /* 170% */
+  }
+  .common-section .learn-more-button {
+    padding: 10px 31px 12px 31px;
+  }
+
+  /* workplace section */
+  .workplace-cards {
+    /* align-items: center;
+    justify-content: center;
+    width: 100%; */
+    display: none;
+  }
+  .workplace-mobile-cards {
+    display: flex;
+  }
+  .workplace-mobile-cards h2 img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.2;
+    border-radius: 1.5rem;
+  }
+  .workplace-card {
+    width: 100%;
+  }
+  .workplace-card h5 {
+    font-size: 18px ;
+    line-height: 30px;
+  }
+  .workplace-card p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .workplace-card a {
+    font-size: 18px;
+  }
+  /* testimonial section */
+  .testimonialcheck {
+    display: none;
+  }
+  .testimonial-section {
+    flex-wrap: wrap;
+
+  }
+  .testimonial-section > div {
+    padding: 0;
+  }
+  .testimonial-section .testimonial-logo {
+    margin: 25px 0;
+    height: 90px;
+  }
+  .testimonial-section .testimonial-content {
+    width: 100%;
+    padding: 0;
+  }
+  .testimonial-section .testimonial-description {
+    font-size: 14px;
+    line-height: 28px;
+    width: 100%;
+    padding: 0;
+  }
+  .testimonial {
+    flex-direction: column;
+  }
+  .testimonial-logo {
+    width: 100%;
+    border-top: 1px solid lightgray;
+  }
+  .testimonial-logo img {
+    height: 80px;
+    width: 160px;
+    float: left;
+  }
+  .user-info .user-name {
+    font-size: 1rem;
+  }
+  .user-info .user-designation {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  /* identity section */
+  .identity-section .heading {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .identity-cards .identity-card {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .identity-card h4 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .identity-card p {
+    font-size: 15px;
+    line-height: 26px;
+    text-align: center;
+  }
+  /* footer section */
+  .footer-t > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-t div:first-child {
+    padding: 0;
+  }
+  .footer-t div .sub-heading {
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+  }
+  .footer-t div > p {
+    font-size: 15px;
+    line-height: 26px;
+    padding: 15px 0;
+    text-align: center;
+  }
+  .newsletter {
+    padding: 35px 25px 30px;
+    max-height: fit-content;
+  }
+  .newsletter .subscribe-panel {
+    margin-bottom: 0;
+  }
+  .newsletter h3 {
+    text-align: center;
+    font-size: 18px ;
+    line-height: 30px;
+  }
+  .newsletter label {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 5px;
+  }
+  .newsletter input {
+    width: 100%;
+  }
+  .newsletter input:first-child {
+    margin-bottom: 28px;
+  }
+  .footer-b .grid > div {
+    width: 100%;
+    text-align: center;
+  }
+  .footer-c  > div > div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+  }
+  .footer-c  > div .doc-links {
+    justify-content: space-around;
+    margin-bottom: 22px;
+  }
+
+  .footer-c > div .copyright {
+    display: flex;
+    text-align: center;
+    margin-bottom: 22px;
+  }
+
+  .footer-c .social > div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .footer-c .social > div:first-child {
+    margin-bottom: 20px;
+  }
+
+  
+}
+@media screen and (max-width: 600px){
+  .hero-section .right-section {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/12;
+    max-height: 300px;
+  }
+} 
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+/* hero section */
+.hero-section .heading {
+  font-size: 40px;
+  line-height: 50px;
+  text-align: start;
+}
+.left-section, .right-section {
+  width: 50%;
+}
+.right-section {
+  position: unset;
+}
+/* first section */
+.card-wrapper {
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.card-wrapper .card {
+  max-width: 49%;
+  flex: 0 0 48.5%;
+}
+  /* common section css */
+  .common-section .heading {
+    margin-top: 1.85rem;
+  }
+  .common-section > div.common-first{
+    flex-direction: column-reverse;
+  }
+  .common-section > div.common-second{
+    flex-direction: column;
+  }
+  .common-section > div.common-third {
+    flex-direction: column-reverse;
+  }
+.common-section > div.common-fourth {
+    flex-direction: column;
+  }
+
+  .common-section .section-content,
+  .common-section .section-banner {
+    width: 100%;
+  }
+
+  .common-section .section-bullets p{
+    font-size: 15px;
+    line-height: 26px; /* 170% */
+  }
+  .common-section .learn-more-button {
+    padding: 10px 31px 12px 31px;
+  }
+/* workplace section */
+.workplace-card {
+  max-width: 48.5%;
+  width: 100%;
+  height: fit-content;
+}
+/* identity section */
+.identity-cards .identity-card {
+  max-width: 100%;
+}
+.newsletter input {
+  width: 100%;
+}
+.newsletter input:first-child {
+  margin-bottom: 28px;
+}
+.newsletter {
+  padding: 35px 25px 30px;
+  max-height: fit-content;
+}
+}
