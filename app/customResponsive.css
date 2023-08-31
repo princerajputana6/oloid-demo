@@ -66,6 +66,7 @@
   }
   .card-wrapper .card {
     max-width: 100%;
+    flex: 0 0 100%;
   }
   .card-wrapper .card h5 {
     font-size: 18px;
@@ -462,7 +463,7 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .card-wrapper .card {
     flex-basis: 23.5%;
   }
