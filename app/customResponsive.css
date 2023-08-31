@@ -338,13 +338,37 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+  .heading, .identity-section .heading {
+    font-size: 24px;
+    line-height: 34px; /* 133.333% */
+  }
+
+  .sub-heading {
+    font-size: 22px;
+    line-height: 34px;
+  }
+
+  .description {
+    font-size: 15px;
+    line-height: 26px; /* 170% */
+  }
   /* hero section */
+.description {
+  margin-left: 0;
+}
   .hero-section .heading {
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 32px;
+    line-height: 42px;
     text-align: start;
   }
+  .left-section button:first-child {
+  padding: 20px 20px;
+}
+  .left-section button:last-child {
+  padding: 10px 0px 12px 6px;
+}
   .left-section,
   .right-section {
     width: 50%;
@@ -358,8 +382,8 @@
     row-gap: 20px;
   }
   .card-wrapper .card {
-    max-width: 49%;
-    flex: 0 0 48.5%;
+    max-width: 22%;
+    flex: 0 0 22%;
   }
   /* common section css */
   .common-section .heading {
@@ -367,12 +391,19 @@
   }
   .common-section > div.common-first {
     flex-direction: column-reverse;
+
+  }
+.common-section > div.common-first .banner-image {
+    width:100%;
   }
   .common-section > div.common-second {
     flex-direction: column;
   }
   .common-section > div.common-third {
     flex-direction: column-reverse;
+  }
+.common-section > div.common-third .banner-image {
+    width:100%;
   }
   .common-section > div.common-fourth {
     flex-direction: column;
@@ -392,13 +423,32 @@
   }
   /* workplace section */
   .workplace-card {
-    max-width: 48.5%;
+    max-width: 22%;
+    flex: 0 0 22%;
     width: 100%;
-    height: fit-content;
+    height: auto;
   }
+.workplace-cards {
+    display:none;
+  }
+.workplace-mobile-cards {
+    display:flex;
+  }
+  .testimonialcheck {
+    display: none;
+  }
+
   /* identity section */
+.identity-cards {
+  gap:.75rem
+}
   .identity-cards .identity-card {
-    max-width: 100%;
+    flex: 0 0 30%!important;
+  }
+.identity-cards .identity-card .identity-button {
+    flex-wrap: nowrap;
+    padding: 12px 24px;
+    max-width:fit-content;
   }
   .newsletter input {
     width: 100%;
@@ -409,5 +459,17 @@
   .newsletter {
     padding: 35px 25px 30px;
     max-height: fit-content;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .card-wrapper .card {
+    flex-basis: 23.5%;
+  }
+.identity-cards .identity-card {
+    flex: 0 0 31%;
+  }
+.workplace-card {
+    flex: 0 0 23%;
   }
 }

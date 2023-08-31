@@ -15,7 +15,7 @@ function FirstSection() {
                 {/* <div className='description mt-5 mx-auto'>
                      Provision users from existing SSO systems to enable quick and automatic login to enterprise apps
                 </div> */}
-                <div className="card-wrapper flex flex-wrap  mt-[49px] gap-x-[1.25rem]">
+                <div className="card-wrapper flex flex-wrap  mt-[49px] gap-x-[1.25rem] justify-center">
                     {<FirstSectionCard
                     imgAlt = "first image"
                     imgSrc = "https://www.flowbite-react.com/images/blog/image-1.jpg"

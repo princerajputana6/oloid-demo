@@ -24,8 +24,8 @@ function Footer() {
                         <div className='subscribe-panel flex flex-wrap  flex-col items-start flex-shrink-0 w-full  mx-auto mb-[28px] sm:w-auto mt-[2.5rem]'>
                             <label for="email" class="avenirBlack flex-shrink-0 mr-auto text-[15px] font-bold text-[#233751] mb-[9px]">Work Email* </label>
                             <form action="#" class="flex flex-wrap flex-col mt-1 items-center w-full md:flex-row">
-                                <input type="email" id="email" style={{ boxShadow: "0px 2px 12px rgba(20,20,43,8%) !important;" }} placeholder="" class="shadow-lg bg-white border-[#dee3eb] text-gray-900 md:w-64 mb-2 md:mb-0 md:mr-4 text-sm rounded-[30px] w-full p-2.5 required" />
-                                <input type="submit" class="text-white bg-[#2265b0] hover:bg-[#2265b0] focus:ring-4 focus:outline-none focus:ring-[#2265b0] font-medium rounded-[30px] text-[1rem]  sm:w-auto px-[3.375rem] py-[.75rem] text-center w-[112px] avenirBlack" value={"Submit"} />
+                                <input type="email" id="email" style={{ boxShadow: "0px 2px 12px rgba(20,20,43,8%) !important;" }} placeholder="" class="shadow-lg bg-white border-[#dee3eb] text-gray-900 w-[55%] mb-2 md:mb-0 md:mr-4 text-sm rounded-[30px]  p-2.5 required" />
+                                <input type="submit" class="text-white bg-[#2265b0] hover:bg-[#2265b0] focus:ring-4 focus:outline-none focus:ring-[#2265b0] font-medium rounded-[30px] text-[1rem]  sm:w-auto px-[3.375rem] py-[.75rem] text-center w-[40%] avenirBlack" value={"Submit"} />
                             </form>
                         </div>
                     </div>

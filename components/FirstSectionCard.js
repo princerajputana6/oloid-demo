@@ -6,7 +6,7 @@ export default function FirstSectionCard({ imgAlt, imgSrc, title, description })
 
     
 <div class="card lg:basis-1/4 max-w-[18.125rem] sm:basis-1 rounded-3xl shadow-none border-none">
-      <img class="rounded-[1.5rem] min-h-[15.5rem] " src={imgSrc} alt="" />
+  <img class="rounded-[1.5rem] w-full aspect-square	 " src={imgSrc} alt="" />
       <div class="pt-[1.5rem]">
         <h5 class="text-[1.5rem]  font-black font-[AvenirBlack] leading-[2.25rem] tracking-tight text-gray-900 dark:text-white">{title}</h5>
         <p class="card-description text-[18px] font-medium text-gray-700 dark:text-gray-400 mt-[10px]">{description}</p>

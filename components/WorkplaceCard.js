@@ -3,7 +3,7 @@ import React from 'react'
 function WorkplaceCard({ image, title, description, link }) {
     return (
 
-        <div class="workplace-card max-w-sm w-[290px] pl-[29px] pr-[24px] py-[2.1rem] bg-[url('/Assets/img/banner-2.png')] border border-gray-200 rounded-[1.5rem] shadow dark:bg-gray-800 dark:border-gray-700">
+        <div class="workplace-card max-w-sm w-[290px] pl-[29px] pr-[24px] py-[2.1rem] bg-[url('/Assets/img/banner-2.png')] border border-gray-200 rounded-[1.5rem] shadow ">
 
             <h5 class="mb-2 text-[1.25rem] font-black tracking-tight text-[#233650] dark:text-white">{title}</h5>
             <p class="mb-[1.91rem] h-24 font-normal text-[18px] text-gray-700 dark:text-gray-400">{description}</p>
