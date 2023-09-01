@@ -45,12 +45,11 @@ function Workplace() {
                     />
                 </div>
                 <div className='workplace-mobile-cards flex flex-wrap gap-[1.25rem] mt-[3rem]'>
-                    <Accordion className="w-full border-none">
+                    {/* <Accordion className="w-full border-none">
                         <Accordion.Panel>
                             <div className='workplace-mobile-card' style={{ background: "url('https://www.oloid.ai/wp-content/uploads/2023/07/testimonialimg3.png')  no-repeat;" }}>
                                 <Accordion.Title >
                                     Factories and Warehouses
-                                    {/* <img src="https://cdn-gkbkl.nitrocdn.com/EahsqmkNZSarsOQvgGaWKiasFdUDbxev/assets/images/optimized/rev-4a9b36e/www.oloid.ai/wp-content/uploads/2023/07/testimonialimg3.png" alt="workplace card" /> */}
                                 </Accordion.Title>
                                 <Accordion.Content>
                                     <p>End-to-end safety & security solutions for the deskless worker.</p>
@@ -116,7 +115,7 @@ function Workplace() {
                                 </Accordion.Content>
                             </div>
                         </Accordion.Panel>
-                    </Accordion>
+                    </Accordion> */}
                 </div>
 
 
