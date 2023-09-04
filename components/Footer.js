@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from "next/image"
 import oloid_logo from "../Assets/img/oloid_logo.svg"
+import footerApple from "../Assets/img/appstore.svg"
+import footerPlaystore from "../Assets/img/playstore.svg"
 
 function Footer() {
     return (
@@ -174,8 +176,8 @@ function Footer() {
                             </div>
 
                             <div>
-                                <Image src="https://cdn-gkbkl.nitrocdn.com/EahsqmkNZSarsOQvgGaWKiasFdUDbxev/assets/images/optimized/rev-4a9b36e/www.oloid.ai/wp-content/uploads/2022/09/APP-STORE-v1-logo.svg" width={100} height={100} alt='Apple store' />
-                                <Image src="https://cdn-gkbkl.nitrocdn.com/EahsqmkNZSarsOQvgGaWKiasFdUDbxev/assets/images/optimized/rev-4a9b36e/www.oloid.ai/wp-content/uploads/2022/09/play-store-v1.svg" width={100} height={100} alt="playstore" />
+                                <Image src={footerApple} width={100} height={100} alt='Apple store' />
+                                <Image src={footerPlaystore} width={100} height={100} alt="playstore" />
                             </div>
 
                         </div>
