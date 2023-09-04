@@ -1,14 +1,19 @@
 'use client';
-import React from 'react'
+import React,{useState} from 'react'
 import WorkplaceCard from './WorkplaceCard'
 import WorkplaceOne from "../Assets/img/o4.png"
 import WorkplaceTwo from "../Assets/img/o3.png"
 import WorkplaceThree from "../Assets/img/o2.png"
 import WorkplaceFour from "../Assets/img/o1.png"
 import { Accordion } from 'flowbite-react';
+
 import Testimonial from './Testimonial';
 
 function Workplace() {
+    const [activeAccordian, setActiveAccordian] = useState(false)
+    const showdata = () => {
+        console.log("Show data")
+    }
     return (
         <div className=' w-screen flex flex-wrap justify-center'>
             <div className="mx-auto flex flex-wrap flex-col justify-center py-24 max-w-7xl gap-x-9">
@@ -45,8 +50,8 @@ function Workplace() {
                     />
                 </div>
                 <div className='workplace-mobile-cards flex flex-wrap gap-[1.25rem] mt-[3rem]'>
-                    {/* <Accordion className="w-full border-none">
-                        <Accordion.Panel>
+                    <Accordion onOpen={showdata} className="w-full border-none">
+                        <Accordion.Panel >
                             <div className='workplace-mobile-card' style={{ background: "url('https://www.oloid.ai/wp-content/uploads/2023/07/testimonialimg3.png')  no-repeat;" }}>
                                 <Accordion.Title >
                                     Factories and Warehouses
@@ -115,7 +120,7 @@ function Workplace() {
                                 </Accordion.Content>
                             </div>
                         </Accordion.Panel>
-                    </Accordion> */}
+                    </Accordion>
                 </div>
 
 
